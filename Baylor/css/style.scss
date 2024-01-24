@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+$headingText: LeagueGothic;
+$normalText: Brandon;
+
+.padd-0{
+    padding: 0px;
+}
+
+
+/*font css*/
+@font-face {
+    font-family: LeagueGothic;
+    src: url(../fonts/LeagueGothic-Regular.otf);
+}
+@font-face {
+    font-family: Brandon;
+    src: url(../fonts/Brandon_light.otf);
+}
+
+.header-section{
+    background-color: #ffffff;
+    border-top: 1px solid #d5d4d8;
+
+    .left-side{
+        padding: 18px 60px;
+    }
+
+    .right-side{
+        padding: 36px 18px 32px 18px;
+        
+        .additional-info{
+            font-size: 13px;
+            letter-spacing: 0px;
+            line-height: 19px;
+            color: #7f7f7f;
+            font-family: $normalText;
+            font-weight: bold;
+            text-align: right; 
+            
+            button {
+                background-color: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+
+
+        .menu{
+
+            .dropdown{
+                float: right;
+
+                .dropdown-toggle{
+
+                    .menu-text{
+                        font-size: 13px;
+                        letter-spacing: 0px;
+                        line-height: 19px;
+                        color: #ffffff;
+                        font-family: $normalText;
+                        font-weight: bold;
+                        background-color: orange;
+                        padding: 6px 26px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main-container{
+
+    .greeting-section{
+
+        .greeting-bg{
+            background-image: url(../image/background.jpg);
+            height: 900px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom: 14px solid #002e86;
+            background-position: center;
+            position: relative;
+
+            .all-content{
+                height: 100%;
+                width: 100%;
+
+                .greeting-text-panel{
+                    padding: 0px 60px;
+
+                    .greeting-text-outer{
+                        margin-top: 2%;
+                        float: right;
+
+                        .greeting-text-outer-main{
+                            width: 580px;
+                            height: 743px;
+                            filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.3));
+                            //background-color: rgba(255, 255, 255, 1);
+                            background: linear-gradient( 0deg, white, white 57%, transparent 57%, transparent 60%, white 60%);
+                            z-index: 1;
+                            float: right;
+
+                            .greeting-text-inner{
+                                padding: 32px 43px 36px 36px;
+
+                                
+                                .greeting-text{
+                                       
+                                    .top{
+                                        font-size: 17px;
+                                        letter-spacing: 0px;
+                                        line-height: 25px;
+                                        color: #666666;
+                                        font-family:$normalText;
+                                        font-weight: 800;
+                                        text-transform: uppercase;
+                                    }
+
+                                    .heading{
+                                        font-size: 43px;
+                                        letter-spacing: 1px;
+                                        line-height: 49px;
+                                        color: black;
+                                        font-family: $headingText;
+                                        font-weight: 400;
+                                        word-break: break-word;
+                                        padding-bottom: 24px;
+                                        padding-top: 20px;
+                                    }
+
+                                    .heading::before{
+                                        content: "";
+                                        position: absolute;
+                                         clip-path: circle(50% at 50% 50%);
+                                    }
+
+                                    .content{
+                                        font-size: 19px;
+                                        letter-spacing: 0px;
+                                        line-height: 25px;
+                                        color: #333333;
+                                        font-family:$normalText;
+                                        font-weight: 300;
+                                        padding-bottom: 15px;
+                                        padding-top: 42px;
+                                    }
+
+                                    .bottom-text{
+                                        font-size: 19px;
+                                        letter-spacing: 0px;
+                                        line-height: 25px;
+                                        color: #333333;
+                                        font-family: $normalText;
+                                        font-weight: 300;
+                                        margin-left: 90px;
+                                    }
+
+                                    img{
+                                        width: 72px;
+                                        height: 72px;
+                                        border-radius: 36px;
+                                        margin-top: -50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .greeting-bg::after{
+            content: "";
+            position: absolute;
+            clip-path: circle(50% at 50% 50%);
+            background-color: #002e86;
+            display: inline-block;
+            width: 43px;
+            height: 43px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            bottom: -28px;
+        }
+    }
+}
+
+

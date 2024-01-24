@@ -1,0 +1,962 @@
+*{
+    box-sizing: border-box;
+}
+
+.padd-0{
+    padding: 0px;
+}
+
+
+/*color variables*/
+
+$primaryColor: #000000; 
+$mainColor: #cfb87c;
+$dropdownColor:  #f2f1f2;
+$tab_view: 992/1200;
+
+/*Font mixin for all text*/
+
+@mixin mainFont($myWeight, $myFont) {
+    font: {
+        family:'Source Sans Pro', sans-serif;
+        weight: $myWeight;
+        size: $myFont;
+    }
+    letter-spacing: 0px;
+}
+
+/*-------------------Header section css Starts---------------------*/
+
+
+.header-section{
+    border-top: 1px solid #d0b978;
+    border-bottom: 1px solid#333333;
+    background-color:$primaryColor;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+    
+    .left-header-text{
+        padding: 38px 0px 38px 76px;
+        
+        .header-arrow{
+            color: $mainColor;
+            margin-right: 10px;
+        }
+        .header-text{
+            @include mainFont(400, 18px);
+            width: 60px;
+            height: 24px;
+            color: $mainColor;
+        }
+    }
+
+    .right-header-menu{
+        top: 39px;
+        right: 73px;
+        
+        .dropdown{
+            float: right;
+            width: 109px;
+            height: 33px;
+            border-radius: 2px;
+            background-color: $mainColor;
+            cursor: pointer;
+
+
+            .menu-text{
+                @include mainFont(400, 18px);
+                height: 24px;
+                color:$primaryColor;
+                text-align: center;
+            }
+                
+            .hamburger-text{
+                color: #1e1e1e;
+                margin-right: 8px;
+            }
+                
+            .dropdown-toggle{
+                padding: 3px 16px 3px 16px;
+            }
+            .dropdown-menu{
+                width: 244px;
+                background-color: $dropdownColor;
+                border-radius: 0;
+                left: -137px;
+                top: 60px;
+                padding: 26px 40px 29px;
+                border: none;
+                box-shadow: none;
+
+                li{
+                    a{
+                        font-size: 15px;
+                        line-height: 24px;
+                        padding: 11px 0 5px;
+                        color:$primaryColor;
+                
+                    }
+                    
+                    a:hover{
+                        color: $mainColor;
+                        text-decoration: underline;
+                        background-color:$dropdownColor;
+                    }
+                }
+            
+            }
+
+        }   
+    }
+                
+}
+
+
+/*-------------------------------Header section css Ends-----------------------------------------*/
+
+/*--------------------------Contact Section Css Starts Here--------------------------*/
+
+.contact-section{
+
+    .container{
+        padding: 178px 74px 76px 77px; 
+    }
+
+    /*Section one - Image Section Css*/
+
+    .section-one{
+        width: 180px;
+        height: 180px;
+        margin-right: 25px;
+
+        .image-section {
+
+            img{
+                width: 180px;
+                height: 180px;
+                border-radius: 90px;
+                background-color: #888888;
+            }
+        }
+    }
+
+    /*Section two- Information Section css*/
+
+    .section-two{
+        border-left: 5px solid #eeeeee;
+        height: 501px;
+        padding-left: 26px;
+        margin-right: 41px;
+
+        .information-section{
+
+            .heading{
+                @include mainFont(700, 27px);
+                line-height: 32px;
+                color:$primaryColor;
+        
+                i{
+                    color: $mainColor;
+                }
+            }
+
+            .title{
+                @include mainFont(400, 22px);
+                line-height: 30px;
+                color:$primaryColor;
+            }
+
+            .paragraph{
+                @include mainFont(400, 16px);
+                width: 400px;
+                line-height: 22px;
+                color:$primaryColor;
+                padding: 36px 4px 0px 0px;
+            }
+        }
+    }
+
+
+    /*Section three- conatact information Section css*/
+
+    .section-three{
+
+        .contact-information{
+            width: 346px;
+            background-color: #ebebeb;
+            padding: 21px 22px 25px 22px;
+
+            .title{
+                @include mainFont(700, 20px);
+                line-height: 28px;
+                color:$primaryColor;
+            }
+
+            .hr-width{
+                margin: 20px 0px 23px 0px;
+                height: 1px;
+                background-color: $mainColor;
+            }
+
+            .information{
+                .left{
+                    @include mainFont(600, 16px);
+                    width: 58px;
+                    line-height: 25px;
+                    color:$primaryColor;
+                    display: inline-block;
+                }
+
+                .right{
+                    @include mainFont(400, 16px);
+                    width: 223px;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color:$primaryColor;
+                }
+
+                .blue{
+                    color: #1d399c;
+                 }
+            }
+
+            
+            .social-icons{
+                i{
+                    margin-right: 16px;
+                    padding: 8px;
+                    background-color: $mainColor;
+                    border-radius: 50%;
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+ /*---------------------------------Contact Section Css endss Here---------------------------------*/
+
+/*------------------------Footer Section css Starts here--------------------------*/
+
+.footer-section{
+    border-top: 1px solid $mainColor;
+    background-color: #222222;
+
+    /*TOP FOOTER*/
+    .top-footer{
+        padding:69px 75px 73px 77px;
+
+        /*ADDRESS SECTION*/
+        .address-sec{
+            padding: 0px 0px 0px 41px;
+
+            .footer-address{
+                .content1{
+                    @include mainFont(400, 15px);
+                    line-height: 22px;
+                    color: #ffffff;
+                }
+
+                .footer-hr{
+                    width: 213px;
+                    height: 1px;
+                    background-color: #c3c3c3;
+                    border-top: none;
+                    margin-left: 0px;
+                }
+
+                .content2{
+                    @include mainFont(700, 15px);
+                    line-height: 22px;
+                    color: #fbf8d0;
+
+                    .underline{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        /*SOCIAL ICON*/
+        .footer-social-icon{
+            display: flex;
+            justify-content: flex-end;
+
+            i{
+                padding: 8px;
+                font-size: 18px;
+                background-color: $mainColor;
+                border-radius: 50%;
+                color: $primaryColor;
+            
+            }
+
+            .mr{
+                margin-right: 17px;
+            }
+            
+        }
+    }
+
+    /*BOOTOM FOOTER*/
+
+    .bottom-footer{
+        background-color:$primaryColor;
+        border-top: 1px solid $mainColor;
+
+        .text-bottom-footer{
+            padding: 35px 75px 36px 75px;
+
+            .bottom-footer-logo{
+                
+                img{
+                float: right;
+                margin-top: -94px;
+                }
+            }
+
+            span{
+                @include mainFont(400, 15px);
+                line-height: 18px;
+                color: #a0a0a0; 
+            }
+        }
+
+    }
+
+}
+
+ /*---------------------------------Footer Section Css endss Here---------------------------------*/
+
+
+
+ 
+/*=================================Media Query Section=====================================*/
+
+
+/*media query for 1199px screen*/
+@media only screen and (max-width: 1199px) and (min-width: 992px)
+{
+
+    /*for header*/
+    .header-section{
+        width: auto;
+        
+        .left-header-text{
+            padding: 38px*$tab_view 0px 38px*$tab_view 76px*$tab_view; 
+            
+            .header-arrow{
+                margin-right: 10px*$tab_view;
+            }
+            .header-text{
+                font-size: 18px*$tab_view;
+                width: 60px*$tab_view;
+                height: 24px*$tab_view;
+            }
+        }
+    
+        .right-header-menu{
+            top: 39px*$tab_view;
+            right: 73px*$tab_view;
+            
+            .dropdown{
+                width: 109px*$tab_view;
+                height: 33px*$tab_view;
+                border-radius: 2px*$tab_view;
+    
+    
+                .menu-text{
+                    font-size: 18px*$tab_view;
+                    height: 24px*$tab_view;
+                }
+                    
+                .hamburger-text{
+                    margin-right: 8px*$tab_view;
+                }
+                    
+                .dropdown-toggle{
+                    padding: 3px*$tab_view 16px*$tab_view 3px*$tab_view 16px*$tab_view;
+                }
+                .dropdown-menu{
+                    width: 244px*$tab_view;
+                    left: -137px*$tab_view;
+                    top: 60px*$tab_view;
+                    padding: 26px*$tab_view 40px*$tab_view 29px*$tab_view;
+    
+                    li{
+                        a{
+                            font-size: 15px*$tab_view;
+                            line-height: 24px*$tab_view;
+                            padding: 11px*$tab_view 0px 5px*$tab_view;
+                        }
+                    }
+                
+                }
+    
+            }   
+        }
+                    
+    }
+
+
+     /*for contact section*/
+    .contact-section{
+
+        .container{
+            padding: 178px*$tab_view 74px*$tab_view 76px*$tab_view 77px*$tab_view;  
+        }
+    
+        /*Section one - Image Section Css*/
+    
+        .section-one{
+            width: 180px*$tab_view;
+            height: 180px*$tab_view;
+    
+            .image-section {
+    
+                img{
+                    width: 180px*$tab_view;
+                    height: 180px*$tab_view;
+                    border-radius: 90px;
+                }
+            }
+        }
+    
+        /*Section two- Information Section css*/
+    
+        .section-two{
+            border-left: 5px*$tab_view solid #eeeeee;
+            height: 501px*$tab_view;
+            padding-left: 26px*$tab_view;
+            margin-right: 41px*$tab_view;
+    
+            .information-section{
+    
+                .heading{
+                    font-size: 27px*$tab_view;
+                    line-height: 32px*$tab_view;
+                }
+    
+                .title{
+                    font-size: 22px*$tab_view;
+                    line-height: 30px*$tab_view;
+                }
+    
+                .paragraph{
+                    font-size: 16px*$tab_view;
+                    width: 400px*$tab_view;
+                    line-height: 22px*$tab_view;
+                    padding-top: 36px*$tab_view;
+                    padding-right: 4px*$tab_view;
+                }
+            }
+        }
+    
+    
+        /*Section three- conatact information Section css*/
+    
+        .section-three{
+    
+            .contact-information{
+                width: 346px*$tab_view;
+                padding: 21px*$tab_view 22px*$tab_view 25px*$tab_view 22px*$tab_view;
+                
+    
+                .title{
+                    font-size:20px*$tab_view;
+                    line-height: 28px*$tab_view;
+                }
+    
+                .hr-width{
+                    margin-top: 20px*$tab_view;
+                    margin-bottom: 23px*$tab_view;
+                    height: 1px*$tab_view;
+                }
+    
+                .information{
+                    .left{
+                        font-size:16px*$tab_view;
+                        width: 58px*$tab_view;
+                        line-height: 25px*$tab_view;
+                    }
+    
+                    .right{
+                        font-size: 16px*$tab_view;
+                        width: 223px*$tab_view;
+                        font-size: 16px*$tab_view;
+                        line-height: 25px*$tab_view;
+                    }
+                }
+    
+                
+                .social-icons{
+                    i{
+                        margin-right: 16px*$tab_view;
+                        font-size: 14px*$tab_view;
+                    }
+                }
+            }
+        }
+    }
+    
+    /*for footer*/
+    .footer-section{
+    
+        /*TOP FOOTER*/
+        .top-footer{
+            padding:69px*$tab_view 75px*$tab_view 73px*$tab_view 77px*$tab_view;
+    
+            /*ADDRESS SECTION*/
+            .address-sec{
+                padding: 0px 0px 0px 41px*$tab_view;
+    
+                .footer-address{
+                    .content1{
+                        font-size: 15px*$tab_view;
+                        line-height: 22px*$tab_view;
+                    }
+    
+                    .footer-hr{
+                        width: 213px*$tab_view;
+                        height: 1px*$tab_view;
+                    }
+    
+                    .content2{
+                        font-size: 15px*$tab_view;
+                        line-height: 22px*$tab_view;
+                    }
+                }
+            }
+    
+            /*SOCIAL ICON*/
+            .footer-social-icon{
+                i{
+                    font-size: 18px*$tab_view;
+                }
+    
+                .mr{
+                    margin-right: 17px*$tab_view;
+                }
+                
+            }
+        }
+    
+        /*BOOTOM FOOTER*/
+    
+        .bottom-footer{
+    
+            .text-bottom-footer{
+                padding: 35px*$tab_view 75px*$tab_view 36px*$tab_view 75px*$tab_view;
+    
+                .bottom-footer-logo{
+                    
+                    img{
+                        margin-top: -88px;
+                    }
+                }
+    
+                span{
+                    font-size: 15px*$tab_view;
+                    line-height: 18px*$tab_view; 
+                }
+            }
+    
+        }
+    
+    }
+
+}  /*media query closing*/
+    
+
+
+/*--------------------media query for 991px screen-----------------------*/
+@media only screen and (max-width: 991px)
+{
+    /*for contact section*/
+    .contact-section{
+
+        .container{
+            padding: 168px 57px 0px 53px;
+        }
+    
+        /*Section two- Information Section css*/
+    
+        .section-two{
+            padding-left: 24px;
+            margin: 22px 16px 0px 0px;
+            height: 420px;
+    
+            .information-section{
+                .paragraph{
+                    width: auto;
+                }
+            }
+        }
+    
+    
+        /*Section three- conatact information Section css*/
+    
+        .section-three{
+    
+            .contact-information{
+                margin-bottom: 35px;
+              
+            }
+        }
+    }
+
+    /*for footer*/
+    .footer-section{
+        /*TOP FOOTER*/
+        .top-footer{
+            padding: 57px 75px 73px 75px;
+
+            /*for top footer logo*/
+            .footer-logo {
+                .image-wh{
+                    margin: 0px auto;
+                    display: block;
+                }
+            }
+    
+            /*ADDRESS SECTION*/
+            .address-sec{
+                text-align: center;
+                padding: 15px 0px 0px 0px;
+    
+                .footer-address{
+                    .footer-hr{
+                        margin: 0px auto;
+                        display: block;
+                    }
+    
+                }
+            }
+    
+            /*SOCIAL ICON*/
+            .footer-social-icon{
+                display: flex;
+                justify-content: center;
+                padding-top: 15px;
+                
+            }
+        }
+    
+        /*BOOTOM FOOTER*/
+    
+        .bottom-footer{
+    
+            .text-bottom-footer{
+                text-align: center;
+            }
+    
+        }
+    
+    }
+}/*media query closing*/
+
+/*-----------------media query for 640px screen-------------------*/
+@media only screen and (max-width: 640px)
+{
+     /*for Header*/
+    .header-section{
+        .left-header-text{
+            padding: 38px 0px 38px 40px;
+        }
+    
+        .right-header-menu{
+            right: 24px;
+        }
+                    
+    }
+    
+
+    /*for contact section*/
+    .contact-section{
+
+        .container{
+            padding-left: 15px;
+            padding-right: 11px; 
+        }
+    
+        /*Section two- Information Section css*/
+    
+        .section-two{
+            padding-left: 20px;
+            margin-top: 22px;
+            height: 501px;
+    
+            .information-section{
+                .paragraph{
+                    line-height: 20px;
+                    padding-top: 25px;
+                }
+            }
+        }
+    
+    
+        /*Section three- conatact information Section css*/
+    
+        .section-three{
+    
+            .contact-information{
+                padding-left: 25px;
+                margin: 35px 0px;
+            }
+        }
+    }
+    
+    /*for footer*/
+    .footer-section{
+        /*BOOTOM FOOTER*/
+    
+        .bottom-footer{
+    
+            .text-bottom-footer{
+                padding: 35px 10px 36px 10px;
+            }
+    
+        }
+    
+    }
+
+}/*media query closing*/
+ 
+
+
+/*---------------------media query for 420px screen-----------------------------*/
+@media only screen and (max-width: 420px)
+{
+
+    /*for contact section*/
+    .contact-section{
+
+        /*Section two- Information Section css*/
+        .section-two{
+            .information-section{
+                .paragraph{
+                    line-height: 19px;
+                    padding-top: 15px;
+                    font-size: 15.5px;
+                }
+            }
+        }
+    }
+
+     /*for footer*/
+     .footer-section{
+        /*TOP FOOTER*/
+        .top-footer{
+            padding: 57px 24px 84px 24px;
+        }
+    
+        /*BOOTOM FOOTER*/
+    
+        .bottom-footer{
+    
+            .text-bottom-footer{
+                .bottom-footer-logo{
+                    img {
+
+                        margin-top: -90px;
+                        width: 359px;
+                    }
+                }
+            }
+        }
+    }
+   
+} /*media query closing*/
+
+
+/*---------------------media query for 370px screen-----------------------------*/
+@media only screen and (max-width: 370px)
+{
+
+    /*For header section*/
+    .header-section{    
+        .left-header-text{
+            padding: 33px 0px 30px 21px;
+        }
+        .right-header-menu{
+            right: 24px;
+            top:33px;
+            
+            .dropdown{
+                width: 60px;
+                height: 24px;
+                font-size: 18px;
+                color: $mainColor;
+
+                .dropdown-toggle{
+                     padding: 1px 0px 3px 22px;
+                }
+                .dropdown-menu{
+                    left: -182px;
+                    top:54px;
+                }
+           }   
+        }              
+    }
+    
+    /*for contact section*/
+    .contact-section{
+
+        .container{
+            padding: 129px 20px 0px 20px; 
+        }
+    
+        /*Section two- Information Section css*/
+    
+        .section-two{
+            border-left: 4px solid #eeeeee;
+            height: 555px;
+            padding-left: 22px;
+            margin-top: 35px;
+    
+            .information-section{
+    
+                .heading{
+                    font-size: 23px;
+                    line-height: 27px;
+                }
+    
+                .title{
+                    font-size: 19px;
+                    line-height: 26px;
+                }
+    
+                .paragraph{
+                    font-size: 14px;
+                    line-height: 18.5px;
+                    padding-top: 19px;
+                    margin-bottom: 19px;
+                    padding-right: 0px;
+                }
+            }
+        }
+    
+    
+        /*Section three- conatact information Section css*/
+    
+        .section-three{
+    
+            .contact-information{
+                width: 282px;
+                margin: 43px 0px;
+                padding: 15px 20px 17px 20px;
+    
+                .title{
+                    font-size: 17px;
+                    line-height: 24px;
+                }
+    
+                .hr-width{
+                    height: 1px;
+                    background-color: $mainColor;
+                    margin-top:17px;
+                    margin-bottom: 19px;
+                }
+    
+                .information{
+                    .left{
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+    
+                    .right{
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+    
+                }
+            }
+        }
+    }
+    
+    /*for footer*/
+
+
+    .footer-section{
+
+        /*TOP FOOTER*/
+        .top-footer{
+            padding: 48px 37px 48px 37px;
+
+            .footer-logo {
+                .image-wh{
+                    width: 240px;
+                }
+            }
+    
+            /*ADDRESS SECTION*/
+            .address-sec{
+                padding: 42px 0px 0px 0px;
+
+                .footer-address{
+                    .content1{
+                        font-size: 13px;
+                        line-height: 19px;
+                    }
+    
+                    .footer-hr{
+                        width: 181px;
+                    }
+    
+                    .content2{
+                        font-size: 13px;
+                        line-height: 19px;
+                    }
+                }
+            }
+    
+            /*SOCIAL ICON*/
+            .footer-social-icon{
+                padding-top: 44px;
+                padding-bottom: 58px;
+    
+                i{
+                    padding: 8px;
+                    font-size: 18px;
+                    background-color: $mainColor;
+                    border-radius: 50%;
+                    color: $primaryColor;
+                
+                }
+    
+                .mr{
+                    margin-right: 17px;
+                }
+                
+            }
+        }
+    
+        /*BOOTOM FOOTER*/
+    
+        .bottom-footer{
+            .text-bottom-footer{
+                padding: 35px 35px 36px 35px;
+    
+                .bottom-footer-logo{
+                    
+                    img{
+                        margin-top: -80px;
+                        width: 252px;
+                        height: 45px;
+                    }
+                }
+    
+                span{
+                    font-size: 13px;
+                    line-height: 15px; 
+                }
+            }
+        }
+    
+    }
+
+}/*Media query Closing*/

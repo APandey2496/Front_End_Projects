@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap css link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+    <!--fontawesome link for using icons-->
+    <script src="https://kit.fontawesome.com/df944c8d3d.js" crossorigin="anonymous"></script>
+
+    <!--stylesheet link-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--Title-->
+    <title>Dickinson</title>
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="image/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/icon/favicon-16x16.png">
+
+</head>
+<body>
+    
+    <!--Access page section starts here-->
+
+    <div class="access-page-section">
+        <div class="container padd-0">
+            <!--box-->
+            <div class="col-xs-12 access-box padd-0">
+                <div class="box-header">
+                    <img src="image/logo.png" alt="logo"/>
+                </div>
+
+                <!--Form-->
+                <div class="login-form">
+                    <!--Heading-->
+                    <div class="box-heading">
+                        Access your Site/Reports:
+                    </div>
+                    <div class="form">
+                        <form method="POST" autocomplete="off">
+                            <div class="form-group">
+                                <label for="username" class="col-xs-12 form-heading padd-0">Username</label>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+    
+                            <div class="form-group">
+                                <label for="password" class="col-xs-12 form-heading padd-0">Passcode</label>
+                                <input type="password" name="password" id="password" class="form-control">
+                            </div>
+                            <button type="button" id="submit" class="btn btn-text" onclick="login()">
+                                LOG IN
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!--Bottom text-->
+                <div class="bottom-text">
+                   <span>Having trouble logging in? Please call XXX.XXX.XXXX </span> <br>
+                   <span>or email <a href="">ovrture@dickinson.edu.</a></span>
+                </div>
+                <div class="privacy-text privacy-text-bg">
+                    <i class="fas fa-lock"></i>  <span>Privacy & Security</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+      <!--Access page section ends here-->
+
+    <!--Bootstrap jquery links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+
+    <script>
+        /*js Function for Login*/
+        function login(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if ( username == "Admin" && password == "Testing@123"){
+                //alert ("Login successfully");
+                window.location = "main_page.html"; // Redirecting to main page.
+                return false;
+            }
+            else{
+                //alert ("Login unsuccessful");
+                window.location = "error404.html"; // Redirecting to error page.
+                return false;
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,1934 @@
+* {
+  box-sizing: border-box;
+  outline: none; }
+
+.padd-0 {
+  padding: 0px; }
+
+/*font css*/
+@font-face {
+  font-family: LeagueGothic;
+  src: url(../fonts/LeagueGothic-Regular.otf); }
+@font-face {
+  font-family: Brandon;
+  src: url(../fonts/Brandon_light.otf); }
+/*-----------------Access Page Scss starts here---------------------*/
+.access-page-section {
+  height: 795px;
+  background-color: #919195; }
+  .access-page-section .access-box {
+    width: 422px;
+    height: 470px;
+    filter: drop-shadow(-1.732px 1px 2.5px rgba(0, 0, 0, 0.1));
+    background-color: #ffffff;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10%; }
+    .access-page-section .access-box .box-header {
+      padding: 24px 0px 27px 0px;
+      background-color: #c8102e; }
+      .access-page-section .access-box .box-header img {
+        margin: 0px auto;
+        display: block; }
+    .access-page-section .access-box .login-form {
+      padding: 37px 40px 43px 40px; }
+      .access-page-section .access-box .login-form .box-heading {
+        font-size: 33px;
+        letter-spacing: 0px;
+        line-height: 34px;
+        color: #000000;
+        font-family: LeagueGothic;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 30px; }
+      .access-page-section .access-box .login-form .form .form-heading {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 24px;
+        color: #333333;
+        font-family: Brandon; }
+      .access-page-section .access-box .login-form .form .form-control {
+        width: 342px;
+        height: 47px;
+        background-color: #eeedf2;
+        border: 1px solid #c7c6ca;
+        border-radius: 0px; }
+      .access-page-section .access-box .login-form .form .btn {
+        width: 150px;
+        height: 44px;
+        background-color: #c8102e;
+        margin: 38px auto 0px auto;
+        display: block; }
+      .access-page-section .access-box .login-form .form .btn-text {
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #ffffff;
+        font-family: Brandon;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 0px; }
+    .access-page-section .access-box .bottom-text {
+      font-size: 17px;
+      line-height: 24px;
+      color: #262626;
+      font-family: Brandon;
+      text-align: center;
+      margin-top: 16px; }
+      .access-page-section .access-box .bottom-text a {
+        color: #c8102e; }
+    .access-page-section .access-box .privacy-text-bg {
+      width: 137px;
+      height: 22px;
+      background-color: #d4d4d4;
+      margin: 0px auto;
+      display: block; }
+    .access-page-section .access-box .privacy-text {
+      font-size: 14px;
+      letter-spacing: 0px;
+      line-height: 17px;
+      color: #5b5b5b;
+      font-family: Brandon;
+      text-align: center;
+      text-decoration: underline;
+      padding: 2px; }
+      .access-page-section .access-box .privacy-text .fas {
+        color: #5b5b5b;
+        font-size: 10px; }
+
+/*---------------------Access Page Scss ends here---------------------*/
+/*-----------------------Main Page Scss starts here----------------------*/
+.main-page-section {
+  height: 960px;
+  background-color: #ffffff;
+  /*------------------Header scss starts here---------------*/
+  /*-------------------Header scss ends here----------------*/
+  /*-----------------Greeting section scss Starts here------------*/
+  /*-----------------Greeting section scss ends here------------*/
+  /*------------Details General Section starts here------------*/
+  /*---------------Details General Section ends here----------------*/
+  /*--------------Statement general section scss starts here-------------*/
+  /*--------------Statement general section scss ends here-------------*/
+  /*-------impact general panel starts here-------*/
+  /*-----------impact general panel ends here---------*/
+  /*--------------footer scss starts here-------------*/
+  /*------Footer scss enda here---------*/ }
+  .main-page-section .main-section-header {
+    height: 58px;
+    filter: drop-shadow(0 0 3.5px rgba(0, 0, 0, 0.8));
+    background-color: #c8102e;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: auto;
+    z-index: 5; }
+    .main-page-section .main-section-header .menu-area {
+      padding: 18px 55px; }
+      .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text {
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        font-family: Brandon;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 20px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text i {
+          color: #2c2c2c;
+          font-size: 12px; }
+      .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:focus, .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:hover {
+        background-color: black; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:focus i, .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:hover i {
+          color: #c8102e; }
+      .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu {
+        width: 220px;
+        background-color: #000000;
+        border-radius: 0;
+        top: 38px;
+        padding: 30px 30px 24px 30px;
+        border: none;
+        box-shadow: none; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li a {
+          font-size: 13px;
+          letter-spacing: 0px;
+          line-height: 16px;
+          color: #cccccc;
+          font-family: Brandon;
+          padding: 0px;
+          text-transform: uppercase; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li a:hover {
+          color: #ffffff;
+          background-color: #000000; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .home {
+          border-bottom: 2px solid #c8102e;
+          margin-bottom: 20px;
+          width: 40px;
+          padding-bottom: 9px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .contact {
+          border-bottom: 2px solid #c8102e;
+          margin-bottom: 20px;
+          width: 61px;
+          padding-bottom: 9px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .report {
+          border-bottom: 2px solid #c8102e;
+          width: 85px;
+          padding-bottom: 9px; }
+      .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu:after {
+        content: "";
+        background-image: url(../image/menu.png);
+        position: absolute;
+        width: 220px;
+        height: 23px;
+        left: 0px;
+        top: 100%; }
+    .main-page-section .main-section-header .logo-area .logo img {
+      margin: 15px auto 16px auto;
+      display: block; }
+    .main-page-section .main-section-header .additional-info {
+      padding: 20px 0px; }
+      .main-page-section .main-section-header .additional-info .additional-info-text {
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        font-family: Brandon;
+        font-weight: bold;
+        text-align: right; }
+        .main-page-section .main-section-header .additional-info .additional-info-text .report {
+          padding-right: 75px; }
+        .main-page-section .main-section-header .additional-info .additional-info-text button {
+          background-color: transparent;
+          border: none;
+          outline: none; }
+  .main-page-section .mobile-only {
+    display: none; }
+  .main-page-section .main-container .greeting-section .greeting-bg {
+    background-image: url(../image/greeting-image.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 4%; }
+    .main-page-section .main-container .greeting-section .greeting-bg .all-content {
+      height: 100%;
+      width: 100%; }
+      .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel {
+        padding: 0px 75px; }
+        .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer {
+          margin-top: 82px;
+          float: right; }
+          .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main {
+            width: 580px;
+            height: 743px;
+            filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.3));
+            background-color: rgba(255, 255, 255, 0.9); }
+            .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner {
+              padding: 32px 43px 36px 36px; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .top {
+                font-size: 17px;
+                letter-spacing: 0px;
+                line-height: 25px;
+                color: #666666;
+                font-family: Brandon;
+                font-weight: 800;
+                text-transform: uppercase; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .heading {
+                font-size: 41px;
+                letter-spacing: 1px;
+                line-height: 49px;
+                color: black;
+                font-family: LeagueGothic;
+                font-weight: 400;
+                word-break: break-word;
+                padding-bottom: 45px;
+                padding-top: 20px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .heading .heading1 {
+                  color: #c8102e; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content {
+                font-size: 19px;
+                letter-spacing: 0px;
+                line-height: 25px;
+                color: #333333;
+                font-family: Brandon;
+                font-weight: 300;
+                padding-bottom: 15px; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content::before {
+                content: "";
+                position: absolute;
+                width: 510px;
+                border-top: 1px solid #000000;
+                margin: -25px 0px; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content::after {
+                content: "";
+                position: absolute;
+                width: 192px;
+                height: 85px;
+                border-radius: 36px;
+                background-image: url(../image/greeting-circle.png);
+                z-index: -1;
+                left: -2px;
+                bottom: -83px;
+                background-repeat: no-repeat; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .bottom-text {
+                font-size: 19px;
+                letter-spacing: 0px;
+                line-height: 25px;
+                color: #333333;
+                font-family: Brandon;
+                font-weight: 300;
+                margin-left: 90px; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text img {
+                width: 72px;
+                height: 72px;
+                border-radius: 36px;
+                margin-top: -50px; }
+          .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main::before {
+            content: " ";
+            position: absolute;
+            background-image: url(../image/greeting-top-triangle.png);
+            background-repeat: no-repeat;
+            width: 165px;
+            height: 32px;
+            top: -32px;
+            left: 0px; }
+          .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main::after {
+            content: " ";
+            position: absolute;
+            background-image: url(../image/greeting-bottom-triangle.png);
+            background-repeat: no-repeat;
+            width: 269px;
+            height: 32px;
+            right: 0px;
+            bottom: -32px; }
+  .main-page-section .details-general-panel .details-panel-start-here {
+    height: 787px;
+    background-color: #ffffff;
+    border-top: 1px solid #d5d4d8;
+    padding: 43px 75px 73px 75px; }
+    .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading {
+      border-bottom: 1px solid #c8102e;
+      padding-bottom: 6px; }
+      .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .left-top {
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #666666;
+        font-family: Brandon; }
+      .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 17px;
+        color: #333333;
+        font-family: Brandon;
+        text-align: right;
+        right: 10px; }
+        .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top .top-button {
+          height: 23px;
+          background-color: #333333;
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #ffffff;
+          font-family: Brandon;
+          text-align: center;
+          border: none;
+          margin-left: 10px; }
+        .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top .top-button:after {
+          content: "";
+          position: absolute;
+          width: 11px;
+          height: 23px;
+          background-color: #333333;
+          right: -11px;
+          top: 0px;
+          clip-path: polygon(100% 50%, 0 0, 0 100%); }
+    .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading::before {
+      content: "";
+      position: absolute;
+      background-image: url(../image/top-triangle.png);
+      width: 41px;
+      height: 60px;
+      left: 0px;
+      top: 28px;
+      background-repeat: no-repeat; }
+    .main-page-section .details-general-panel .details-panel-start-here .main-description .details-general-heading {
+      font-size: 33.5px;
+      letter-spacing: 0px;
+      line-height: 34px;
+      color: #c8102e;
+      font-family: LeagueGothic;
+      font-weight: 400;
+      padding-top: 34px;
+      padding-bottom: 9px; }
+    .main-page-section .details-general-panel .details-panel-start-here .main-description .refrence-text {
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 17px;
+      color: #656565;
+      font-family: Brandon; }
+    .main-page-section .details-general-panel .details-panel-start-here .main-description .refrence-bg {
+      height: 23px;
+      background-color: #e5e5e5;
+      width: 337px;
+      padding: 4px 11px; }
+    .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .left-details-panel {
+      font-size: 18px;
+      letter-spacing: 0px;
+      line-height: 27px;
+      color: #333333;
+      font-family: Brandon;
+      padding-top: 46px;
+      width: 561px; }
+    .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel {
+      width: 384px;
+      height: 439px;
+      filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.3));
+      background-color: #c8102e;
+      margin-top: 46px;
+      margin-left: 75px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar {
+        padding: 43px 37px 44px 37px; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar div {
+          padding-bottom: 22px; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar .heading {
+          font-size: 14px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #fefefe;
+          font-family: Brandon;
+          font-weight: 800; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar .description {
+          font-size: 17px;
+          line-height: 23px;
+          color: #fefefe;
+          font-family: Brandon;
+          font-weight: 300; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar::before {
+        content: "";
+        width: 312px;
+        background-color: white;
+        height: 1px;
+        position: absolute;
+        top: 23px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar::after {
+        content: "";
+        width: 312px;
+        background-color: white;
+        height: 1px;
+        position: absolute;
+        bottom: 23px; }
+    .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel::before {
+      content: "";
+      position: absolute;
+      background-image: url(../image/sidebar.png);
+      width: 30px;
+      height: 156px;
+      top: 0px;
+      background-repeat: no-repeat;
+      left: -29px; }
+  .main-page-section .statement-general-panel .statement-panel-start-here {
+    border-top: 1px solid #d5d4d8;
+    height: 981px;
+    background-color: #f3f3f3;
+    padding: 45px 75px 67px 75px; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading {
+      border-bottom: 1px solid #c8102e;
+      padding-bottom: 6px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .left-top {
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #666666;
+        font-family: Brandon; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 17px;
+        color: #333333;
+        font-family: Brandon;
+        text-align: right;
+        right: 10px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top .top-button {
+          height: 23px;
+          background-color: #333333;
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #ffffff;
+          font-family: Brandon;
+          text-align: center;
+          border: none;
+          margin-left: 10px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top .top-button:after {
+          content: "";
+          position: absolute;
+          width: 11px;
+          height: 23px;
+          background-color: #333333;
+          right: -11px;
+          top: 0px;
+          clip-path: polygon(100% 50%, 0 0, 0 100%); }
+    .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading::before {
+      content: "";
+      position: absolute;
+      background-image: url(../image/statement-general.png);
+      width: 41px;
+      height: 60px;
+      left: 0px;
+      top: 29px;
+      background-repeat: no-repeat; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .statement-general-heading {
+      font-size: 33.5px;
+      letter-spacing: 0px;
+      line-height: 34px;
+      color: #c8102e;
+      font-family: LeagueGothic;
+      font-weight: 400;
+      padding-top: 34px;
+      padding-bottom: 9px; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .refrence-text {
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 17px;
+      color: #5c5c5c;
+      font-family: Brandon; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .refrence-bg {
+      height: 23px;
+      background-color: #dadada;
+      width: 337px;
+      padding: 4px 11px; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner {
+      height: 680px;
+      display: flex;
+      align-items: normal;
+      justify-content: normal;
+      flex-flow: column wrap;
+      align-content: stretch;
+      width: 639px;
+      padding-top: 40px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner div {
+        margin-bottom: 30px;
+        width: 314px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner .heading {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #000000;
+        font-family: Brandon;
+        font-weight: 800; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner .description {
+        font-size: 24px;
+        line-height: 32px;
+        color: #505050;
+        font-family: Brandon;
+        font-weight: 300; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .bottom-text {
+      font-size: 17.5px;
+      letter-spacing: 0px;
+      line-height: 22px;
+      color: #333333;
+      font-family: Brandon; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel {
+      width: 314px;
+      height: 292px;
+      filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.3));
+      background-color: #c8102e;
+      margin-top: 41px;
+      margin-left: 26px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar {
+        padding: 26px 37px 23px 37px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar div {
+          padding-bottom: 18px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .main-heading {
+          font-size: 17px;
+          line-height: 17px;
+          color: #ffffff;
+          font-family: Brandon;
+          font-weight: 800;
+          padding-bottom: 26px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .heading {
+          font-size: 14px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #fefefe;
+          font-family: Brandon;
+          font-weight: 800; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .description {
+          font-size: 22px;
+          line-height: 30px;
+          color: #fefefe;
+          font-family: Brandon;
+          font-weight: 300; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar::before {
+        content: "";
+        width: 242px;
+        background-color: white;
+        height: 1px;
+        position: absolute;
+        top: 56px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar::after {
+        content: "";
+        width: 242px;
+        background-color: white;
+        height: 1px;
+        position: absolute;
+        bottom: 23px; }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel::before {
+      content: "";
+      position: absolute;
+      background-image: url(../image/sidebar.png);
+      width: 30px;
+      height: 156px;
+      top: 0px;
+      background-repeat: no-repeat;
+      left: -29px; }
+  .main-page-section .impact-general-panel .impact-panel-start-here {
+    height: 1183px;
+    background-color: #ffffff;
+    border-top: 1px solid #d5d4d8;
+    padding: 45px 76px 70px 75px; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading {
+      border-bottom: 1px solid #c8102e;
+      padding-bottom: 13px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading .left-top {
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #666666;
+        font-family: Brandon; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading .right-top {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 17px;
+        color: #333333;
+        font-family: Brandon;
+        text-align: right; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading::before {
+      content: "";
+      position: absolute;
+      background-image: url(../image/top-triangle.png);
+      width: 41px;
+      height: 60px;
+      left: 0px;
+      top: 32px;
+      background-repeat: no-repeat; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .main-description .impact-general-heading {
+      font-size: 33.5px;
+      letter-spacing: 0px;
+      line-height: 34px;
+      color: #c8102e;
+      font-weight: 400;
+      font-family: LeagueGothic;
+      padding-top: 34px;
+      padding-bottom: 9px; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .main-description .refrence-text {
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 17px;
+      color: #656565;
+      font-family: Brandon; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .main-description .refrence-bg {
+      height: 23px;
+      background-color: #e5e5e5;
+      width: 337px;
+      padding: 4px 11px; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area {
+      background-color: #e8e8e8;
+      margin-top: 40px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel {
+        height: 859px;
+        filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.3));
+        background-color: #c8102e; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side {
+          padding: 0px 20px;
+          top: 50%;
+          transform: translateY(-50%); }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side img {
+            width: 189px;
+            height: 189px;
+            border-radius: 95px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side::after {
+          content: "";
+          position: absolute;
+          background-image: url(../image/impact-general.png);
+          width: 203px;
+          height: 203px;
+          background-repeat: no-repeat;
+          left: 19px;
+          z-index: -1;
+          top: -2px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner {
+          word-break: break-all;
+          padding: 10px 34px 10px 0px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text1 {
+            font-size: 28px;
+            letter-spacing: 0px;
+            line-height: 29px;
+            color: #ffffff;
+            font-family: LeagueGothic;
+            font-weight: 400; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text2 {
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            font-family: Brandon;
+            font-weight: 500;
+            text-transform: uppercase; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text3 {
+            font-size: 17px;
+            letter-spacing: 0px;
+            line-height: 22px;
+            color: #ffffff;
+            font-family: Brandon;
+            margin-top: 34px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons .button {
+          width: 90px;
+          height: 23px;
+          background-color: #000000;
+          border: none;
+          padding: 5px 7px;
+          margin: 0px 6px 9px 0px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons .button-text {
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #ffffff;
+          font-family: Brandon;
+          text-align: center; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons i {
+          width: 31px;
+          height: 23px;
+          background-color: #000000;
+          color: white;
+          padding: 5px 8px 5px 8px;
+          margin-right: 6px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel .impact-panel-inner {
+        padding: 16px 39px 22px 31px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel .impact-panel-inner .right-panel-text {
+          font-size: 17px;
+          letter-spacing: 0px;
+          line-height: 22px;
+          color: #333333;
+          font-family: Brandon; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel::before {
+        content: "";
+        position: absolute;
+        clip-path: polygon(100% 0, 0 50%, 100% 100%);
+        width: 37px;
+        height: 71px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -16px;
+        background-color: #e8e8e8; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .main-description .impact-bottom-text {
+      font-size: 13px;
+      letter-spacing: 0px;
+      line-height: 17px;
+      color: #656565;
+      font-family: Brandon;
+      margin-top: 10px; }
+  .main-page-section .footer-section {
+    background-color: #000000; }
+    .main-page-section .footer-section .container {
+      padding: 47px 75px 58px 74px; }
+    .main-page-section .footer-section .footer-logo {
+      width: 114px; }
+    .main-page-section .footer-section .footer-address {
+      padding: 0px 25px; }
+      .main-page-section .footer-section .footer-address .college-name {
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #ffffff;
+        font-family: Brandon;
+        font-weight: bold; }
+      .main-page-section .footer-section .footer-address .college-address {
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        color: #ffffff;
+        font-family: Brandon; }
+        .main-page-section .footer-section .footer-address .college-address .mail {
+          color: white;
+          text-decoration: underline; }
+    .main-page-section .footer-section .footer-social-icons .social-icons {
+      display: flex;
+      justify-content: flex-end; }
+      .main-page-section .footer-section .footer-social-icons .social-icons img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%; }
+      .main-page-section .footer-section .footer-social-icons .social-icons .mr {
+        margin-right: 14px; }
+    .main-page-section .footer-section .footer-social-icons .text {
+      font-size: 15px;
+      letter-spacing: 0px;
+      line-height: 23px;
+      color: #cdcdcd;
+      font-family: Brandon;
+      text-align: right;
+      padding-top: 49px; }
+
+/*-------------------Main Page Scss ends here-------------------------*/
+/*--------------------Error Page Scss starts here--------------------*/
+.error-page-section .header-bg {
+  filter: drop-shadow(0 0 3.5px rgba(0, 0, 0, 0.8));
+  background-color: #c8102e; }
+  .error-page-section .header-bg .header-logo {
+    padding: 15px 0px 16px 0px; }
+    .error-page-section .header-bg .header-logo img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
+.error-page-section .error-page-contents-bg {
+  height: 653px;
+  background-color: #ffffff; }
+  .error-page-section .error-page-contents-bg .error-heading {
+    padding: 205px 380px 33px 380px; }
+    .error-page-section .error-page-contents-bg .error-heading .error-heading-inner {
+      font-family: LeagueGothic;
+      font-size: 33px;
+      letter-spacing: 0px;
+      line-height: 34px;
+      color: #000000;
+      font-weight: 400;
+      text-align: center; }
+  .error-page-section .error-page-contents-bg .error-points {
+    display: flex;
+    justify-content: center; }
+    .error-page-section .error-page-contents-bg .error-points .error-points-inner {
+      font-size: 19px;
+      letter-spacing: 0px;
+      line-height: 26px;
+      color: #000000;
+      font-family: Brandon; }
+  .error-page-section .error-page-contents-bg .error-button {
+    width: 224px;
+    padding: 16px 28px;
+    background-color: #c8102e;
+    margin: 50px auto;
+    display: block; }
+    .error-page-section .error-page-contents-bg .error-button .error-button-inner {
+      font-size: 17px;
+      letter-spacing: 0px;
+      line-height: 20px;
+      color: #ffffff;
+      font-family: Brandon;
+      font-weight: bold;
+      text-align: center; }
+
+/*--------------------Error Page Scss ends here------------------------------*/
+/*=================================Media Query Section=====================================*/
+/*media query for 1199px screen*/
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  /*For Access Page*/
+  .access-page-section {
+    height: 657.2px; }
+    .access-page-section .access-box {
+      width: 348.8533333333px;
+      height: 388.5333333333px;
+      margin-top: 8.2666666667%; }
+      .access-page-section .access-box .box-header {
+        padding: 19.84px 0px 22.32px 0px; }
+      .access-page-section .access-box .login-form {
+        padding: 30.5866666667px 33.0666666667px 35.5466666667px 33.0666666667px; }
+        .access-page-section .access-box .login-form .box-heading {
+          font-size: 27.28px;
+          line-height: 28.1066666667px;
+          margin-bottom: 24.8px; }
+        .access-page-section .access-box .login-form .form .form-heading {
+          font-size: 14.88px;
+          line-height: 19.84px;
+          color: #333333; }
+        .access-page-section .access-box .login-form .form .form-control {
+          width: 282.72px;
+          height: 38.8533333333px; }
+        .access-page-section .access-box .login-form .form .btn {
+          width: 124px;
+          height: 36.3733333333px;
+          margin: 31.4133333333px auto 0px auto; }
+        .access-page-section .access-box .login-form .form .btn-text {
+          font-size: 14.0533333333px;
+          line-height: 16.5333333333px; }
+      .access-page-section .access-box .bottom-text {
+        font-size: 14.0533333333px;
+        line-height: 19.84px;
+        margin-top: 13.2266666667px; }
+      .access-page-section .access-box .privacy-text-bg {
+        width: 113.2533333333px;
+        height: 18.1866666667px; }
+      .access-page-section .access-box .privacy-text {
+        font-size: 11.5733333333px;
+        line-height: 14.0533333333px;
+        padding: 1.6533333333px; }
+        .access-page-section .access-box .privacy-text .fas {
+          font-size: 8.2666666667px; }
+
+  /*For Main Page*/
+  .main-page-section {
+    /*scss for header*/
+    /*scss for greeting section*/
+    /*scss for details-general*/
+    /*scss for statement-general*/
+    /*scss for impact-general*/
+    /*scss for footer*/ }
+    .main-page-section .main-section-header {
+      height: 47.9466666667px; }
+      .main-page-section .main-section-header .menu-area {
+        padding: 14.88px 45.4666666667px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text {
+          font-size: 10.7466666667px;
+          line-height: 15.7066666667px;
+          padding: 18.1866666667px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text i {
+            font-size: 9.92px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:focus, .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:hover {
+          background-color: black; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:focus i, .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:hover i {
+            color: #c8102e; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu {
+          width: 181.8666666667px;
+          top: 31.4133333333px;
+          padding: 24.8px 24.8px 19.84px 24.8px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li a {
+            font-size: 10.7466666667px;
+            line-height: 13.2266666667px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .home {
+            border-bottom: 1.6533333333px solid #c8102e;
+            margin-bottom: 16.5333333333px;
+            width: 33.0666666667px;
+            padding-bottom: 7.44px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .contact {
+            border-bottom: 1.6533333333px solid #c8102e;
+            margin-bottom: 16.5333333333px;
+            width: 50.4266666667px;
+            padding-bottom: 7.44px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .report {
+            border-bottom: 1.6533333333px solid #c8102e;
+            width: 70.2666666667px;
+            padding-bottom: 7.44px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu:after {
+          width: 181.8666666667px; }
+      .main-page-section .main-section-header .logo-area .logo img {
+        margin: 12.4px auto 13.2266666667px auto; }
+      .main-page-section .main-section-header .additional-info {
+        padding: 16.5333333333px 0px; }
+        .main-page-section .main-section-header .additional-info .additional-info-text {
+          font-size: 10.7466666667px;
+          line-height: 15.7066666667px; }
+          .main-page-section .main-section-header .additional-info .additional-info-text .report {
+            padding-right: 62px; }
+    .main-page-section .main-container .greeting-section .greeting-bg {
+      height: 744px;
+      margin-top: 3.3066666667%; }
+      .main-page-section .main-container .greeting-section .greeting-bg .all-content {
+        height: 100%;
+        width: 100%; }
+        .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel {
+          padding: 0px 62px; }
+          .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer {
+            margin-top: 67.7866666667px;
+            float: right; }
+            .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main {
+              width: 479.4666666667px;
+              height: 614.2133333333px; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner {
+                padding: 26.4533333333px 35.5466666667px 29.76px 29.76px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .top {
+                  font-size: 14.0533333333px;
+                  line-height: 20.6666666667px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .heading {
+                  font-size: 33.8933333333px;
+                  letter-spacing: 0.8266666667px;
+                  line-height: 40.5066666667px;
+                  padding-bottom: 37.2px;
+                  padding-top: 16.5333333333px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content {
+                  font-size: 15.7066666667px;
+                  line-height: 20.6666666667px;
+                  padding-bottom: 12.4px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content::before {
+                  content: "";
+                  position: absolute;
+                  width: 421.6px;
+                  border-top: 0.8266666667px solid #000000;
+                  margin: -20.6666666667px 0px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .bottom-text {
+                  font-size: 15.7066666667px;
+                  line-height: 20.6666666667px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text img {
+                  margin-top: -41.3333333333px; }
+    .main-page-section .details-general-panel .details-panel-start-here {
+      height: 650.5866666667px;
+      padding: 35.5466666667px 62px 60.3466666667px 62px; }
+      .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading {
+        padding-bottom: 4.96px; }
+        .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .left-top {
+          font-size: 11.5733333333px;
+          line-height: 16.5333333333px; }
+        .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top {
+          font-size: 9.92px;
+          line-height: 14.0533333333px;
+          right: 8.2666666667px; }
+          .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top .top-button {
+            height: 19.0133333333px;
+            font-size: 9.92px;
+            line-height: 14.0533333333px;
+            margin-left: 8.2666666667px; }
+          .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top .top-button:after {
+            width: 9.0933333333px;
+            height: 19.0133333333px;
+            right: -9.0933333333px; }
+      .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading::before {
+        top: 22.32px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .details-general-heading {
+        font-size: 27.6933333333px;
+        line-height: 28.1066666667px;
+        padding-top: 28.1066666667px;
+        padding-bottom: 7.44px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .refrence-text {
+        font-size: 9.92px;
+        line-height: 14.0533333333px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .refrence-bg {
+        height: 19.0133333333px;
+        width: 278.5866666667px;
+        padding: 3.3066666667px 9.0933333333px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .left-details-panel {
+        font-size: 14.88px;
+        line-height: 22.32px;
+        padding-top: 38.0266666667px;
+        width: 463.76px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel {
+        width: 317.44px;
+        height: 362.9066666667px;
+        margin-top: 38.0266666667px;
+        margin-left: 62px; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar {
+          padding: 35.5466666667px 30.5866666667px 36.3733333333px 30.5866666667px; }
+          .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar div {
+            padding-bottom: 14.0533333333px; }
+          .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar .heading {
+            font-size: 11.5733333333px;
+            line-height: 14.0533333333px; }
+          .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar .description {
+            font-size: 14.0533333333px;
+            line-height: 19.0133333333px; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar::before {
+          width: 257.92px;
+          top: 19.0133333333px; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar::after {
+          width: 257.92px;
+          bottom: 19.0133333333px; }
+    .main-page-section .statement-general-panel .statement-panel-start-here {
+      height: 810.96px;
+      padding: 37.2px 62px 55.3866666667px 62px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading {
+        padding-bottom: 4.96px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .left-top {
+          font-size: 11.5733333333px;
+          line-height: 16.5333333333px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top {
+          font-size: 9.92px;
+          line-height: 14.0533333333px;
+          right: 8.2666666667px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top .top-button {
+            height: 19.0133333333px;
+            font-size: 9.92px;
+            line-height: 14.0533333333px;
+            margin-left: 8.2666666667px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top .top-button:after {
+            width: 9.0933333333px;
+            height: 19.0133333333px;
+            right: -9.0933333333px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading::before {
+        top: 23.9733333333px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .statement-general-heading {
+        font-size: 27.6933333333px;
+        line-height: 28.1066666667px;
+        padding-top: 28.1066666667px;
+        padding-bottom: 7.44px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .refrence-text {
+        font-size: 9.92px;
+        line-height: 14.0533333333px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .refrence-bg {
+        height: 19.0133333333px;
+        width: 278.5866666667px;
+        padding: 3.3066666667px 9.0933333333px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner {
+        height: 562.1333333333px;
+        display: flex;
+        align-items: normal;
+        justify-content: normal;
+        flex-flow: column wrap;
+        align-content: stretch;
+        width: 528.24px;
+        padding-top: 33.0666666667px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner div {
+          margin-bottom: 22.32px;
+          width: 259.5733333333px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner .heading {
+          font-size: 13.2266666667px;
+          line-height: 16.5333333333px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner .description {
+          font-size: 19.84px;
+          line-height: 26.4533333333px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .bottom-text {
+        font-size: 14.4666666667px;
+        line-height: 18.1866666667px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel {
+        width: 259.5733333333px;
+        height: 241.3866666667px;
+        margin-top: 33.8933333333px;
+        margin-left: 21.4933333333px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar {
+          padding: 21.4933333333px 30.5866666667px 19.0133333333px 30.5866666667px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar div {
+            padding-bottom: 14.88px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .main-heading {
+            font-size: 14.0533333333px;
+            line-height: 14.0533333333px;
+            padding-bottom: 21.4933333333px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .heading {
+            font-size: 11.5733333333px;
+            line-height: 14.0533333333px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .description {
+            font-size: 18.1866666667px;
+            line-height: 24.8px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar::before {
+          width: 200.0533333333px;
+          top: 46.2933333333px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar::after {
+          width: 200.0533333333px;
+          bottom: 19.0133333333px; }
+    .main-page-section .impact-general-panel .impact-panel-start-here {
+      height: 977.9466666667px;
+      padding: 37.2px 62.8266666667px 57.8666666667px 62px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading {
+        padding-bottom: 10.7466666667px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading .left-top {
+          font-size: 11.5733333333px;
+          line-height: 16.5333333333px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading .right-top {
+          font-size: 9.92px;
+          line-height: 14.0533333333px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading::before {
+        top: 26.4533333333px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .impact-general-heading {
+        font-size: 27.6933333333px;
+        line-height: 28.1066666667px;
+        padding-top: 28.1066666667px;
+        padding-bottom: 7.44px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .refrence-text {
+        font-size: 9.92px;
+        line-height: 14.0533333333px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .refrence-bg {
+        height: 19.0133333333px;
+        width: 278.5866666667px;
+        padding: 3.3066666667px 9.0933333333px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area {
+        margin-top: 33.0666666667px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel {
+          height: 710.1066666667px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side {
+            padding: 0px 8.2666666667px;
+            top: 50%;
+            transform: translateY(-50%); }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side::after {
+            left: 7px;
+            top: -1px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner {
+            word-break: break-all;
+            padding: 8.2666666667px 21.4933333333px 8.2666666667px 12.4px; }
+            .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text1 {
+              font-size: 23.1466666667px;
+              line-height: 23.9733333333px; }
+            .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text2 {
+              font-size: 13.2266666667px;
+              line-height: 16.5333333333px; }
+            .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text3 {
+              font-size: 14.0533333333px;
+              line-height: 18.1866666667px;
+              margin-top: 28.1066666667px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons .button {
+            width: 74.4px;
+            height: 19.0133333333px;
+            padding: 4.1333333333px 5.7866666667px;
+            margin: 0px 4.96px 7.44px 0px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons .button-text {
+            font-size: 9.92px;
+            line-height: 14.0533333333px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons i {
+            width: 25.6266666667px;
+            height: 19.0133333333px;
+            padding: 4.1333333333px 6.6133333333px 4.1333333333px 6.6133333333px;
+            margin-right: 4.96px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel .impact-panel-inner {
+          padding: 13.2266666667px 32.24px 18.1866666667px 25.6266666667px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel .impact-panel-inner .right-panel-text {
+            font-size: 14.0533333333px;
+            line-height: 18.1866666667px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .impact-bottom-text {
+        font-size: 10.7466666667px;
+        line-height: 14.0533333333px;
+        margin-top: 8.2666666667px; }
+    .main-page-section .footer-section .container {
+      padding: 38.8533333333px 62px 47.9466666667px 61.1733333333px; }
+    .main-page-section .footer-section .footer-address {
+      padding: 0px 20.6666666667px; }
+      .main-page-section .footer-section .footer-address .college-name {
+        font-size: 14.0533333333px;
+        line-height: 16.5333333333px; }
+      .main-page-section .footer-section .footer-address .college-address {
+        font-size: 10.7466666667px;
+        line-height: 16.5333333333px; }
+    .main-page-section .footer-section .footer-social-icons .social-icons img {
+      width: 24.8px;
+      height: 24.8px;
+      border-radius: 50%; }
+    .main-page-section .footer-section .footer-social-icons .social-icons .mr {
+      margin-right: 11.5733333333px; }
+    .main-page-section .footer-section .footer-social-icons .text {
+      font-size: 12.4px;
+      line-height: 19.0133333333px;
+      padding-top: 40.5066666667px; }
+
+  /*For Error Page*/
+  .error-page-section .header-bg .header-logo {
+    padding: 12.4px 0px 13.2266666667px 0px; }
+  .error-page-section .error-page-contents-bg {
+    height: 539.8133333333px; }
+    .error-page-section .error-page-contents-bg .error-heading {
+      padding: 169.4666666667px 314.1333333333px 27.28px 314.1333333333px; }
+      .error-page-section .error-page-contents-bg .error-heading .error-heading-inner {
+        font-size: 27.28px;
+        line-height: 28.1066666667px; }
+    .error-page-section .error-page-contents-bg .error-points .error-points-inner {
+      font-size: 15.7066666667px;
+      line-height: 21.4933333333px; }
+    .error-page-section .error-page-contents-bg .error-button {
+      width: 185.1733333333px;
+      padding: 13.2266666667px 23.1466666667px;
+      margin: 41.3333333333px auto;
+      display: block; }
+      .error-page-section .error-page-contents-bg .error-button .error-button-inner {
+        font-size: 14.0533333333px;
+        line-height: 16.5333333333px; } }
+/*End of media query*/
+/*media query for 991px screen*/
+@media only screen and (max-width: 991px) {
+  /*For Access Page*/
+  .access-page-section {
+    height: 594px; }
+    .access-page-section .access-box {
+      width: 302px;
+      height: 399px;
+      margin-top: 3%; }
+      .access-page-section .access-box .box-header {
+        padding: 22px 0px; }
+      .access-page-section .access-box .login-form {
+        padding: 30px 20px 30px 20px; }
+        .access-page-section .access-box .login-form .box-heading {
+          font-size: 28px;
+          line-height: 29px;
+          margin-bottom: 30px; }
+        .access-page-section .access-box .login-form .form .form-heading {
+          font-size: 15px;
+          line-height: 20px; }
+        .access-page-section .access-box .login-form .form .form-control {
+          width: 262px;
+          height: 40px; }
+        .access-page-section .access-box .login-form .form .btn {
+          width: 127px;
+          height: 37px;
+          margin: 32px auto 0px auto; }
+        .access-page-section .access-box .login-form .form .btn-text {
+          font-size: 14px;
+          line-height: 17px; }
+      .access-page-section .access-box .bottom-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 14px; }
+      .access-page-section .access-box .privacy-text-bg {
+        width: 116px;
+        height: 19px; }
+      .access-page-section .access-box .privacy-text {
+        font-size: 12px;
+        line-height: 15px; }
+
+  /*For Main Page*/
+  .main-page-section {
+    background-color: #ffffff;
+    /*scss for header*/
+    /*scss for details*/
+    /*scss for statement general*/
+    /*scss for impact general*/
+    /*scss for footer*/ }
+    .main-page-section .main-section-header {
+      height: 49px;
+      filter: drop-shadow(0 0 3.5px rgba(0, 0, 0, 0.8));
+      background-color: #c8102e;
+      position: fixed;
+      left: 0;
+      right: 0;
+      width: auto;
+      z-index: 5; }
+      .main-page-section .main-section-header .menu-area {
+        padding: 0px;
+        top: 14px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text {
+          font-size: 10px;
+          letter-spacing: 0px;
+          line-height: 14px;
+          color: #ffffff;
+          font-family: Brandon;
+          font-weight: bold;
+          text-decoration: none;
+          padding: 20px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text i {
+            color: #2c2c2c;
+            font-size: 10px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:focus, .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:hover {
+          background-color: black; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:focus i, .main-page-section .main-section-header .menu-area .dropdown .dropdown-toggle .menu-text:hover i {
+            color: #c8102e; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu {
+          width: 208px;
+          background-color: #000000;
+          border-radius: 0;
+          top: 33px;
+          padding: 29px;
+          border: none;
+          box-shadow: none; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li a {
+            font-size: 12px;
+            letter-spacing: 0px;
+            line-height: 15px;
+            color: #cccccc;
+            font-family: Brandon;
+            padding: 0px;
+            text-transform: uppercase; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li a:hover {
+            color: #ffffff;
+            background-color: #000000; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .home {
+            border-bottom: 2px solid #c8102e;
+            margin-bottom: 20px;
+            width: 38px;
+            padding-bottom: 9px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .contact {
+            border-bottom: 2px solid #c8102e;
+            margin-bottom: 20px;
+            width: 58px;
+            padding-bottom: 9px; }
+          .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu li .report {
+            border-bottom: 2px solid #c8102e;
+            width: 80px;
+            padding-bottom: 9px; }
+        .main-page-section .main-section-header .menu-area .dropdown .dropdown-menu:after {
+          content: "";
+          background-image: url(../image/menu.png);
+          background-repeat: no-repeat;
+          position: absolute;
+          width: 208px;
+          height: 23px;
+          left: 0px;
+          top: 100%; }
+      .main-page-section .main-section-header .logo-area .logo img {
+        margin: 13px 0px; }
+      .main-page-section .main-section-header .additional-info {
+        background-color: #49494c;
+        padding: 16px 0px 13px 0px;
+        top: -3px; }
+        .main-page-section .main-section-header .additional-info .additional-info-text {
+          font-size: 10px;
+          letter-spacing: 0px;
+          line-height: 14px;
+          color: #ffffff;
+          font-family: Brandon;
+          font-weight: bold; }
+          .main-page-section .main-section-header .additional-info .additional-info-text .fund {
+            right: 10%;
+            text-align: right; }
+          .main-page-section .main-section-header .additional-info .additional-info-text .report {
+            left: 10%;
+            text-align: left;
+            padding-right: 0px; }
+          .main-page-section .main-section-header .additional-info .additional-info-text button {
+            background-color: transparent;
+            border: none;
+            outline: none; }
+    .main-page-section .mobile-only {
+      display: block; }
+      .main-page-section .mobile-only img {
+        height: 736px;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 9%; }
+    .main-page-section .main-container .greeting-section .greeting-bg {
+      background-image: none;
+      height: auto;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      margin-top: 0; }
+      .main-page-section .main-container .greeting-section .greeting-bg .all-content {
+        height: 100%;
+        width: 100%; }
+        .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel {
+          padding: 0px; }
+          .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer {
+            margin-top: 0;
+            float: none; }
+            .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main {
+              width: auto;
+              height: auto;
+              filter: none;
+              background-color: white; }
+              .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner {
+                padding: 28px 20px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .top {
+                  font-size: 14px;
+                  letter-spacing: 0px;
+                  line-height: 21px;
+                  color: #666666;
+                  font-family: Brandon;
+                  font-weight: 800;
+                  text-transform: uppercase; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .heading {
+                  font-size: 35px;
+                  letter-spacing: 1px;
+                  line-height: 42px;
+                  color: black;
+                  font-family: LeagueGothic;
+                  font-weight: 400;
+                  word-break: break-word;
+                  padding-bottom: 45px;
+                  padding-top: 20px;
+                  word-break: break-all; }
+                  .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .heading .heading1 {
+                    color: #c8102e; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content {
+                  font-size: 16px;
+                  letter-spacing: 0px;
+                  line-height: 22px;
+                  color: #333333;
+                  font-family: Brandon;
+                  font-weight: 300;
+                  padding-bottom: 15px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content::before {
+                  content: "";
+                  position: absolute;
+                  width: inherit;
+                  border-top: 1px solid #000000;
+                  margin: -25px 0px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .content::after {
+                  content: "";
+                  position: absolute;
+                  width: 192px;
+                  height: 85px;
+                  border-radius: 36px;
+                  background-image: url(../image/greeting-circle.png);
+                  z-index: -1;
+                  left: -2px;
+                  bottom: -83px;
+                  background-repeat: no-repeat; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text .bottom-text {
+                  font-size: 19px;
+                  letter-spacing: 0px;
+                  line-height: 25px;
+                  color: #333333;
+                  font-family: Brandon;
+                  font-weight: 300;
+                  margin-left: 90px; }
+                .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main .greeting-text-inner .greeting-inner-text img {
+                  width: 61px;
+                  height: 61px;
+                  border-radius: 31px;
+                  margin-top: -61px; }
+            .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main::before {
+              content: " ";
+              position: absolute;
+              background-image: url(../image/greeting-top-triangle.png);
+              background-repeat: no-repeat;
+              width: 165px;
+              height: 32px;
+              top: -32px;
+              left: 0px; }
+            .main-page-section .main-container .greeting-section .greeting-bg .all-content .greeting-panel .greeting-text-outer .greeting-text-outer-main::after {
+              content: " ";
+              position: absolute;
+              background-image: none;
+              background-repeat: no-repeat;
+              width: 269px;
+              height: 32px;
+              right: 0px;
+              bottom: -32px; }
+    .main-page-section .details-general-panel .details-panel-start-here {
+      background-color: #ffffff;
+      padding: 39px 20px;
+      border-top: none; }
+      .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading {
+        border-bottom: none;
+        padding-bottom: 0px; }
+        .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .left-top {
+          display: none; }
+        .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top {
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #333333;
+          font-family: Brandon;
+          text-align: center;
+          right: 10px; }
+          .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top .top-button {
+            display: none; }
+          .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading .right-top .top-button:after {
+            display: none; }
+      .main-page-section .details-general-panel .details-panel-start-here .panel-top-heading::before {
+        display: none; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .details-general-heading {
+        font-size: 30px;
+        letter-spacing: 0px;
+        line-height: 29px;
+        color: #c8102e;
+        font-family: LeagueGothic;
+        font-weight: 400;
+        padding-top: 40px;
+        padding-bottom: 5px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .refrence-text {
+        font-size: 10.5px;
+        letter-spacing: 0px;
+        line-height: 14px;
+        color: #656565;
+        font-family: Brandon;
+        word-break: break-all; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .refrence-bg {
+        height: 34px;
+        background-color: #e5e5e5;
+        width: 276px;
+        padding: 4px 11px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .left-details-panel {
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        color: #333333;
+        font-family: Brandon;
+        padding-top: 25px;
+        width: auto; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel {
+        width: 302px;
+        height: auto;
+        filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.3));
+        background-color: #c8102e;
+        margin-top: 46px;
+        margin-left: 0px;
+        left: 50%;
+        transform: translateX(-50%); }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar {
+          padding: 22px 20px; }
+          .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar div {
+            padding-bottom: 20px; }
+          .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar .heading {
+            font-size: 12px;
+            letter-spacing: 0px;
+            line-height: 13px;
+            color: #fefefe;
+            font-family: Brandon;
+            font-weight: 800; }
+          .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar .description {
+            font-size: 14px;
+            line-height: 20px;
+            color: #fefefe;
+            font-family: Brandon;
+            font-weight: 300; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar::before {
+          content: "";
+          width: 262px;
+          background-color: white;
+          height: 1px;
+          position: absolute;
+          top: 19px; }
+        .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel .sidebar::after {
+          content: "";
+          width: 262px;
+          background-color: white;
+          height: 1px;
+          position: absolute;
+          bottom: 19px; }
+      .main-page-section .details-general-panel .details-panel-start-here .main-description .panel-main-area .right-details-panel::before {
+        content: "";
+        position: absolute;
+        background-image: url(../image/details-general--mobile.png);
+        width: 135px;
+        height: 25px;
+        top: -25px;
+        background-repeat: no-repeat;
+        left: 0; }
+    .main-page-section .statement-general-panel .statement-panel-start-here {
+      border-top: none;
+      background-color: #ffffff;
+      padding: 39px 20px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading {
+        border-bottom: none;
+        padding-bottom: 0px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .left-top {
+          display: none; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top {
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #333333;
+          font-family: Brandon;
+          text-align: center;
+          right: 0px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top .top-button {
+            display: none; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading .right-top .top-button:after {
+            display: none; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .panel-top-heading::before {
+        display: none; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .statement-general-heading {
+        font-size: 30px;
+        letter-spacing: 0px;
+        line-height: 29px;
+        color: #c8102e;
+        font-family: LeagueGothic;
+        font-weight: 400;
+        padding-top: 34px;
+        padding-bottom: 9px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .refrence-text {
+        font-size: 10.5px;
+        letter-spacing: 0px;
+        line-height: 14px;
+        color: #656565;
+        font-family: Brandon;
+        word-break: break-all; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .refrence-bg {
+        width: 276px;
+        height: 34px;
+        background-color: #e5e5e5;
+        padding: 4px 11px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner {
+        height: 542px;
+        display: flex;
+        align-items: normal;
+        justify-content: normal;
+        flex-flow: column wrap;
+        align-content: stretch;
+        width: auto;
+        padding-top: 40px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner div {
+          margin-bottom: 18px;
+          width: auto; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner .heading {
+          font-size: 14px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #000000;
+          font-family: Brandon;
+          font-weight: 800; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner .description {
+          font-size: 20px;
+          line-height: 27px;
+          color: #505050;
+          font-family: Brandon;
+          font-weight: 300; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .bottom-text {
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 22px;
+        color: #333333;
+        font-family: Brandon;
+        width: auto; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel {
+        width: 302px;
+        filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.3));
+        background-color: #c8102e;
+        margin-top: 41px;
+        margin-left: 0px;
+        left: 50%;
+        transform: translateX(-50%); }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar {
+          padding: 22px 20px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar div {
+            padding-bottom: 20px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .main-heading {
+            font-size: 12px;
+            line-height: 14px;
+            color: #ffffff;
+            font-family: Brandon;
+            font-weight: 800;
+            padding-bottom: 32px; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .heading {
+            font-size: 12px;
+            letter-spacing: 0px;
+            line-height: 14px;
+            color: #fefefe;
+            font-family: Brandon;
+            font-weight: 800; }
+          .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar .description {
+            font-size: 19px;
+            line-height: 25px;
+            color: #fefefe;
+            font-family: Brandon;
+            font-weight: 300; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar::before {
+          content: "";
+          width: 262px;
+          background-color: white;
+          height: 1px;
+          position: absolute;
+          top: 52px; }
+        .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel .sidebar::after {
+          content: "";
+          width: 262px;
+          background-color: white;
+          height: 1px;
+          position: absolute;
+          bottom: 19px; }
+      .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .right-statement-panel::before {
+        content: "";
+        position: absolute;
+        background-image: url(../image/details-general--mobile.png);
+        width: 135px;
+        height: 156px;
+        top: -24px;
+        background-repeat: no-repeat;
+        left: 0; }
+    .main-page-section .impact-general-panel .container {
+      margin-bottom: 39px; }
+    .main-page-section .impact-general-panel .impact-panel-start-here {
+      height: auto;
+      background-color: #ffffff;
+      border-top: none;
+      padding: 39px 10px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading {
+        border-bottom: none;
+        padding-bottom: 0px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading .left-top {
+          display: none; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading .right-top {
+          font-size: 12px;
+          letter-spacing: 0px;
+          line-height: 17px;
+          color: #333333;
+          font-family: Brandon;
+          text-align: center; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .panel-top-heading::before {
+        display: none; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .impact-general-heading {
+        font-size: 30px;
+        letter-spacing: 0px;
+        line-height: 29px;
+        color: #c8102e;
+        font-weight: 400;
+        font-family: LeagueGothic;
+        padding: 34px 10px 9px 10px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .refrence-text {
+        font-size: 10.5px;
+        letter-spacing: 0px;
+        line-height: 14px;
+        color: #656565;
+        font-family: Brandon;
+        word-break: break-all; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .refrence-bg {
+        width: 276px;
+        height: 34px;
+        background-color: #e5e5e5;
+        padding: 4px 11px;
+        margin: 0px 10px; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area {
+        background-color: #e8e8e8;
+        margin-top: 40px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel {
+          height: auto;
+          filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.3));
+          background-color: #c8102e; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side {
+            padding: 20px 20px;
+            top: 0;
+            transform: translateY(0); }
+            .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side img {
+              width: 161px;
+              height: 161px;
+              border-radius: 80px;
+              margin: 0px auto;
+              display: block; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side::after {
+            display: none; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner {
+            word-break: break-all;
+            padding: 20px; }
+            .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text1 {
+              font-size: 24px;
+              letter-spacing: 0px;
+              line-height: 25px;
+              color: #ffffff;
+              font-family: LeagueGothic;
+              font-weight: 400; }
+            .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text2 {
+              font-size: 14px;
+              line-height: 17px;
+              color: #ffffff;
+              font-family: Brandon;
+              font-weight: 500;
+              text-transform: uppercase; }
+            .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .left-text-inner .text3 {
+              font-size: 14px;
+              letter-spacing: 0px;
+              line-height: 19px;
+              color: #ffffff;
+              font-family: Brandon;
+              margin-top: 34px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons .button {
+            width: 90px;
+            height: 23px;
+            background-color: #000000;
+            border: none;
+            padding: 5px 7px;
+            margin: 0px 6px 9px 0px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons .button-text {
+            font-size: 12px;
+            letter-spacing: 0px;
+            line-height: 17px;
+            color: #ffffff;
+            font-family: Brandon;
+            text-align: center; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .text-side .social-icons i {
+            width: 31px;
+            height: 23px;
+            background-color: #000000;
+            color: white;
+            padding: 5px 8px 5px 8px;
+            margin-right: 6px; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel .impact-panel-inner {
+          padding: 23px; }
+          .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel .impact-panel-inner .right-panel-text {
+            font-size: 14px;
+            letter-spacing: 0px;
+            line-height: 19px;
+            color: #333333;
+            font-family: Brandon; }
+        .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .right-impact-panel::before {
+          content: "";
+          position: absolute;
+          clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+          width: 60px;
+          height: 31px;
+          top: -20px;
+          transform: translateX(-50%);
+          left: 50%;
+          background-color: #e8e8e8; }
+      .main-page-section .impact-general-panel .impact-panel-start-here .main-description .impact-bottom-text {
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 14px;
+        color: #656565;
+        font-family: Brandon;
+        margin-top: 10px;
+        word-break: break-all; }
+    .main-page-section .footer-section .container {
+      padding: 40px 30px 44px 30px; }
+    .main-page-section .footer-section .footer-logo {
+      width: 100%; }
+      .main-page-section .footer-section .footer-logo img {
+        margin: 0px auto;
+        display: block; }
+    .main-page-section .footer-section .footer-address {
+      text-align: center;
+      padding: 25px 0px 48px 0px; }
+      .main-page-section .footer-section .footer-address .college-name {
+        font-size: 14px;
+        line-height: 17px; }
+      .main-page-section .footer-section .footer-address .college-address {
+        font-size: 11px;
+        line-height: 17px; }
+    .main-page-section .footer-section .footer-social-icons .social-icons {
+      display: flex;
+      justify-content: center; }
+    .main-page-section .footer-section .footer-social-icons .text {
+      font-size: 13px;
+      line-height: 19px;
+      text-align: center;
+      padding-top: 52px; }
+
+  /*For Error Page*/
+  .error-page-section .header-bg .header-logo {
+    padding: 15px 20px 16px 20px; }
+  .error-page-section .error-page-contents-bg {
+    height: 450px; }
+    .error-page-section .error-page-contents-bg .error-heading {
+      padding: 110px 20px 27px 20px; }
+      .error-page-section .error-page-contents-bg .error-heading .error-heading-inner {
+        font-size: 20px;
+        line-height: 26px; }
+    .error-page-section .error-page-contents-bg .error-points .error-points-inner {
+      font-size: 13px;
+      line-height: 20px; }
+    .error-page-section .error-page-contents-bg .error-button {
+      width: 150px;
+      padding: 12px 20px;
+      margin: 40px auto; }
+      .error-page-section .error-page-contents-bg .error-button .error-button-inner {
+        font-size: 12px;
+        line-height: 16px; } }
+/*End of media query*/
+@media only screen and (max-width: 768px) {
+  .main-page-section .mobile-only {
+    display: block; }
+    .main-page-section .mobile-only img {
+      height: 582px;
+      width: 100%;
+      object-fit: cover;
+      margin-top: 12%; } }
+@media only screen and (max-width: 580px) {
+  .main-page-section {
+    /*scss for statement general*/ }
+    .main-page-section .statement-general-panel .statement-panel-start-here .main-description .panel-main-area .left-statement-panel .statement-inner {
+      height: auto;
+      display: flex;
+      justify-content: normal;
+      flex-flow: column;
+      align-content: normal;
+      width: auto;
+      padding-top: 40px;
+      flex-direction: column; } }
+@media only screen and (max-width: 425px) {
+  .main-page-section .mobile-only {
+    display: block; }
+    .main-page-section .mobile-only img {
+      height: 325px;
+      width: 100%;
+      object-fit: cover;
+      margin-top: 22%; } }
+@media only screen and (max-width: 375px) {
+  .main-page-section .mobile-only {
+    display: block; }
+    .main-page-section .mobile-only img {
+      height: 288px;
+      width: 100%;
+      object-fit: cover;
+      margin-top: 25%; } }
+@media only screen and (max-width: 320px) {
+  .main-page-section {
+    /*scss for impact general*/ }
+    .main-page-section .mobile-only {
+      display: block; }
+      .main-page-section .mobile-only img {
+        height: 246px;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 28%; }
+    .main-page-section .impact-general-panel .impact-panel-start-here .main-description .panel-main-area .left-impact-panel .image-side::after {
+      content: "";
+      position: absolute;
+      display: block;
+      background-image: url(../image/impact-general--mobile.png);
+      width: 203px;
+      height: 203px;
+      background-repeat: no-repeat;
+      left: 69px;
+      z-index: -1;
+      top: 18px; } }
+
+/*# sourceMappingURL=style.css.map */

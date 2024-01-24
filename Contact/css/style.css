@@ -1,0 +1,631 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*-------------------Header section css Starts---------------------*/
+.padd-0{
+    padding: 0px;
+}
+.header-section{
+    border-top: 1px solid #d0b978;
+    border-bottom: 1px solid#333333;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+
+}
+.header-arrow{
+    color: #cfb87c;
+    margin-right: 10px;
+}
+.header-text{
+    width: 60px;
+    height: 24px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #cfb87c;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.left-header-text{
+    padding: 38px 0px 38px 76px;
+}
+.right-header-menu{
+    top: 39px;
+    right: 73px;
+}
+.dropdown{
+    float: right;
+    width: 109px;
+    height: 33px;
+    border-radius: 2px;
+    background-color: #cfb87c;
+}
+.menu-text{
+    height: 24px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hamburger-text{
+    color: #1e1e1e;
+    margin-right: 8px;
+}
+
+.dropdown-toggle{
+    padding: 3px 0px 3px 20px;
+}
+.dropdown-menu{
+    width: 244px;
+    background-color: #f2f1f2;
+    border-radius: 0;
+    left: -137px;
+    top: 60px;
+    padding: 26px 40px 29px;
+    border: none;
+    box-shadow: none;
+}
+.dropdown-menu>li>a{
+    font-size: 15px;
+    line-height: 24px;
+    padding: 11px 0 5px;
+    color: #000000;
+}
+.dropdown-menu>li>a:hover{
+    color:#cfb87c;
+    text-decoration: underline;
+    background-color:#f2f1f2;;
+}
+
+
+/*-------------------------------Header section css Ends-----------------------------------------*/
+
+/*--------------------------Contact Section Css Starts Here--------------------------*/
+
+.contact-section .container{
+    padding: 178px 74px 76px 77px; ;
+    
+}
+
+/*Section one - Image Section Css*/
+
+.section-one{
+    width: 180px;
+    height: 180px;
+    margin-right: 25px;
+}
+.image-section img{
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    background-color: #888888;
+}
+
+
+/*Section two- Information Section css*/
+.section-two{
+    border-left: 5px solid #eeeeee;
+    height: 501px;
+    padding-left: 26px;
+    margin-right: 41px;
+}
+.information-section .heading{
+    font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.information-section .heading i{
+    color: #cfb87c;
+}
+
+.information-section .title{
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.information-section .paragraph{
+    width: 400px;
+    height: 487px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    padding-top: 36px;
+    padding-right: 4px;
+}
+
+/*Section three- conatact information Section css*/
+
+.contact-information{
+    width: 346px;
+    background-color: #ebebeb;
+    padding-left: 22px;
+    padding-top: 21px;
+    padding-right: 22px;
+    padding-bottom: 25px;
+}
+.contact-information .title{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.contact-information .information .left{
+    width: 58px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.contact-information .information .right{
+    width: 223px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.hr-width{
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    height: 1px;
+    background-color: #cfb87c;
+}
+ .contact-information .information .blue{
+    color: #1d399c;
+ }
+
+
+ .social-icons i{
+     margin-right: 16px;
+     padding: 8px;
+    font-size: 14px;
+    background-color: #cfb87c;
+    border-radius: 50%;
+    color: white;
+ }
+ /*---------------------------------Contact Section Css endss Here---------------------------------*/
+
+/*------------------------Footer Section css Starts here--------------------------*/
+
+.footer-section{
+    border-top: 1px solid #cfb87c;
+    background-color: #222222;
+}
+.footer-section .top-footer{
+    padding:69px 75px 73px 77px;
+}
+.address-sec{
+    padding: 0px 0px 0px 41px;
+}
+.footer-address .content1{
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.footer-hr{
+    width: 213px;
+    height: 1px;
+    background-color: #c3c3c3;
+    border-top: none;
+    margin-left: 0px;
+}
+.footer-address .content2{
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #fbf8d0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+.content2 .underline{
+    text-decoration: underline;
+}
+.footer-social-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-social-icon i{
+    padding: 8px;
+    font-size: 18px;
+    background-color: #cfb87c;
+    border-radius: 50%;
+    color: black;
+
+}
+
+.footer-social-icon .mr{
+    margin-right: 17px;
+}
+
+.bottom-footer-logo img{
+    float: right;
+    margin-top: -94px;
+}
+.bottom-footer{
+    background-color: #000000;
+    border-top: 1px solid #cfb87c;
+}
+.text-bottom-footer{
+    padding: 35px 75px 36px 75px;
+}
+.text-bottom-footer span{
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #a0a0a0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    
+}
+
+ /*---------------------------------Contact Section Css endss Here---------------------------------*/
+
+
+
+ 
+/*===========================Media Query Section=======================*/
+
+
+/*media query for 1199px screen*/
+@media only screen and (max-width: 1199px) and (min-width: 992px)
+{
+
+    .header-section{
+        width: auto;
+    }
+    /*for Header*/
+    .left-header-text {
+        padding: 33px 0px 33px 63px;
+    }
+    .right-header-menu {
+        top: 31px;
+        right: 50px;
+    }
+
+     /*for contact section*/
+    .contact-section .container {
+        padding-top: 165px;
+        padding-left: 50px;
+        padding-right: 55px;
+    }
+    /*section one*/
+    .section-one {
+        width: 175px;
+        height: 175px;
+
+    }
+    .image-section img {
+        width: 175px;
+        height: 175px;
+    
+    }
+    /*section two*/
+    .section-two {
+     
+        padding-left: 24px;
+        margin-right: 16px;
+    }
+    .information-section .paragraph {
+        width: 328px;
+        height: 487px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 15px;
+        padding-right: 4px;
+    }
+
+    /*section three*/
+    .contact-information {
+        width: 300px;
+        height: 280px;
+        background-color: #ebebeb;
+        padding-left: 22px;
+        padding-top: 10px;
+    }
+
+    .hr-width{
+        margin-top: 9px;
+        margin-bottom: 10px;
+    }
+    /*for footer*/
+
+    .footer-section .top-footer {
+        padding: 60px 50px 69px 65px;
+    }
+
+    .text-bottom-footer {
+        padding-left: 65px;
+        padding-right: 48px;
+    }
+}
+
+
+/*--------------------media query for 991px screen-----------------------*/
+@media only screen and (max-width: 991px)
+{
+    /*for contact section*/
+    .contact-section .container {
+        padding-top: 168px;
+        padding-left: 53px;
+        padding-right: 57px;
+    }
+    /*section two*/
+    .section-two {
+        padding-left: 24px;
+        margin-right: 16px;
+        margin-top: 22px;
+        height: 420px;
+    }
+    .information-section .paragraph{
+        width: auto;
+    }
+
+    /*section three*/
+    .contact-information{
+        margin-bottom: 35px;
+    }
+
+    /*for footer*/
+    .footer-section .top-footer {
+        padding: 57px 75px 73px 75px;
+    }
+    .footer-logo .image-wh{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .address-sec{
+        text-align: center;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .footer-hr{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .footer-social-icon{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .text-bottom-footer{
+        text-align: center;
+    }
+
+}
+
+/*-----------------media query for 640px screen-------------------*/
+@media only screen and (max-width: 640px)
+{
+    /*for Header*/
+    .left-header-text {
+        padding: 38px 0px 38px 40px;
+    }
+    .right-header-menu {
+        right: 24px;
+    }
+
+    /*for contact section*/
+    .contact-section .container {
+        padding-left: 15px;
+        padding-right: 11px;
+    }
+
+    /*section two*/
+    .section-two {
+        padding-left: 20px;
+        margin-top: 22px;
+        height: 501px;
+    }
+    .information-section .paragraph {
+        line-height: 20px;
+        padding-top: 25px;
+    }
+
+    /*section three*/
+    .contact-information{
+        padding-left: 25px;
+        margin: 35px 0px;
+    }
+
+    /*for footer*/
+    .text-bottom-footer {
+        padding: 35px 10px 36px 10px;
+    }
+
+ 
+}
+ 
+
+
+/*---------------------media query for 420px screen-----------------------------*/
+@media only screen and (max-width: 420px)
+{
+
+    /*for contact section*/
+    /*Section two*/
+    .information-section .paragraph {
+        line-height: 19px;
+        padding-top: 15px;
+        font-size: 15.5px;
+    }
+    /*For footer*/
+    .footer-section .top-footer {
+        padding: 57px 24px 84px 24px;
+    }
+
+    .bottom-footer-logo img {
+
+        margin-top: -90px;
+        width: 359px;
+    }
+}
+
+/*---------------------media query for 370px screen-----------------------------*/
+@media only screen and (max-width: 370px)
+{
+
+    /*For header section*/
+    .left-header-text {
+        padding: 33px 0px 30px 21px;
+    }
+
+    .right-header-menu {
+        right: 24px;
+        top:33px;
+    }
+
+    .dropdown{
+        width: 60px;
+        height: 24px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #cfb87c;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+    }
+
+    .dropdown-toggle {
+        padding: 1px 0px 3px 22px;
+    }
+
+    .dropdown-menu{
+        left: -182px;
+        top:54px;
+    }
+
+    /*for contact section*/
+    .contact-section .container {
+        padding-top: 129px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /*Section two*/
+    .section-two{
+        border-left: 4px solid #eeeeee;
+        height: 555px;
+        padding-left: 22px;
+        margin-top: 35px;
+    }
+    .information-section .heading{
+        font-size: 23px;
+        line-height: 27px;
+    }
+    .information-section .title{
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .information-section .paragraph{
+        font-size: 14px;
+        line-height: 18.5px;
+        padding-top: 19px;
+        margin-bottom: 19px;
+        padding-right: 0px;
+    }
+
+
+    /*section three*/
+    .contact-information{
+        width: 282px;
+        margin: 43px 0px;
+        padding: 15px 20px 17px 20px;
+    }
+    .contact-information .title{
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .contact-information .information .left{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .contact-information .information .right{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .hr-width{
+        height: 1px;
+        background-color: #cfb87c;
+        margin-top:17px;
+        margin-bottom: 19px;
+    }
+
+    /*for footer*/
+    
+    .footer-section .top-footer {
+        padding: 48px 37px 48px 37px;
+    }
+
+    .footer-logo .image-wh{
+        width: 240px;
+    }
+    .address-sec{
+        padding: 42px 0px 0px 0px;
+    }
+
+    .footer-social-icon {
+        padding-top: 44px;
+        padding-bottom: 58px;
+    }
+
+    .footer-address .content1{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .footer-hr{
+        width: 181px;
+    }
+    .footer-address .content2{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .text-bottom-footer{
+        padding: 35px 35px 36px 35px;
+    }
+    .text-bottom-footer span{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .bottom-footer-logo img {
+        margin-top: -80px;
+        width: 252px;
+        height: 45px;
+    }
+}

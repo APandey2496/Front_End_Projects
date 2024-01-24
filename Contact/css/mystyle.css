@@ -1,0 +1,547 @@
+* {
+  box-sizing: border-box; }
+
+.padd-0 {
+  padding: 0px; }
+
+/*color variables*/
+/*Font mixin for all text*/
+/*-------------------Header section css Starts---------------------*/
+.header-section {
+  border-top: 1px solid #d0b978;
+  border-bottom: 1px solid #333333;
+  background-color: #000000;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: fixed;
+  z-index: 1; }
+  .header-section .left-header-text {
+    padding: 38px 0px 38px 76px; }
+    .header-section .left-header-text .header-arrow {
+      color: #cfb87c;
+      margin-right: 10px; }
+    .header-section .left-header-text .header-text {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 0px;
+      width: 60px;
+      height: 24px;
+      color: #cfb87c; }
+  .header-section .right-header-menu {
+    top: 39px;
+    right: 73px; }
+    .header-section .right-header-menu .dropdown {
+      float: right;
+      width: 109px;
+      height: 33px;
+      border-radius: 2px;
+      background-color: #cfb87c;
+      cursor: pointer; }
+      .header-section .right-header-menu .dropdown .menu-text {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0px;
+        height: 24px;
+        color: #000000;
+        text-align: center; }
+      .header-section .right-header-menu .dropdown .hamburger-text {
+        color: #1e1e1e;
+        margin-right: 8px; }
+      .header-section .right-header-menu .dropdown .dropdown-toggle {
+        padding: 3px 16px 3px 16px; }
+      .header-section .right-header-menu .dropdown .dropdown-menu {
+        width: 244px;
+        background-color: #f2f1f2;
+        border-radius: 0;
+        left: -137px;
+        top: 60px;
+        padding: 26px 40px 29px;
+        border: none;
+        box-shadow: none; }
+        .header-section .right-header-menu .dropdown .dropdown-menu li a {
+          font-size: 15px;
+          line-height: 24px;
+          padding: 11px 0 5px;
+          color: #000000; }
+        .header-section .right-header-menu .dropdown .dropdown-menu li a:hover {
+          color: #cfb87c;
+          text-decoration: underline;
+          background-color: #f2f1f2; }
+
+/*-------------------------------Header section css Ends-----------------------------------------*/
+/*--------------------------Contact Section Css Starts Here--------------------------*/
+.contact-section {
+  /*Section one - Image Section Css*/
+  /*Section two- Information Section css*/
+  /*Section three- conatact information Section css*/ }
+  .contact-section .container {
+    padding: 178px 74px 76px 77px; }
+  .contact-section .section-one {
+    width: 180px;
+    height: 180px;
+    margin-right: 25px; }
+    .contact-section .section-one .image-section img {
+      width: 180px;
+      height: 180px;
+      border-radius: 90px;
+      background-color: #888888; }
+  .contact-section .section-two {
+    border-left: 5px solid #eeeeee;
+    height: 501px;
+    padding-left: 26px;
+    margin-right: 41px; }
+    .contact-section .section-two .information-section .heading {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
+      font-size: 27px;
+      letter-spacing: 0px;
+      line-height: 32px;
+      color: #000000; }
+      .contact-section .section-two .information-section .heading i {
+        color: #cfb87c; }
+    .contact-section .section-two .information-section .title {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      line-height: 30px;
+      color: #000000; }
+    .contact-section .section-two .information-section .paragraph {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0px;
+      width: 400px;
+      line-height: 22px;
+      color: #000000;
+      padding: 36px 4px 0px 0px; }
+  .contact-section .section-three .contact-information {
+    width: 346px;
+    background-color: #ebebeb;
+    padding: 21px 22px 25px 22px; }
+    .contact-section .section-three .contact-information .title {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 28px;
+      color: #000000; }
+    .contact-section .section-three .contact-information .hr-width {
+      margin: 20px 0px 23px 0px;
+      height: 1px;
+      background-color: #cfb87c; }
+    .contact-section .section-three .contact-information .information .left {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 0px;
+      width: 58px;
+      line-height: 25px;
+      color: #000000;
+      display: inline-block; }
+    .contact-section .section-three .contact-information .information .right {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0px;
+      width: 223px;
+      font-size: 16px;
+      line-height: 25px;
+      color: #000000; }
+    .contact-section .section-three .contact-information .information .blue {
+      color: #1d399c; }
+    .contact-section .section-three .contact-information .social-icons i {
+      margin-right: 16px;
+      padding: 8px;
+      background-color: #cfb87c;
+      border-radius: 50%;
+      color: white;
+      font-size: 14px; }
+
+/*---------------------------------Contact Section Css endss Here---------------------------------*/
+/*------------------------Footer Section css Starts here--------------------------*/
+.footer-section {
+  border-top: 1px solid #cfb87c;
+  background-color: #222222;
+  /*TOP FOOTER*/
+  /*BOOTOM FOOTER*/ }
+  .footer-section .top-footer {
+    padding: 69px 75px 73px 77px;
+    /*ADDRESS SECTION*/
+    /*SOCIAL ICON*/ }
+    .footer-section .top-footer .address-sec {
+      padding: 0px 0px 0px 41px; }
+      .footer-section .top-footer .address-sec .footer-address .content1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 22px;
+        color: #ffffff; }
+      .footer-section .top-footer .address-sec .footer-address .footer-hr {
+        width: 213px;
+        height: 1px;
+        background-color: #c3c3c3;
+        border-top: none;
+        margin-left: 0px; }
+      .footer-section .top-footer .address-sec .footer-address .content2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 22px;
+        color: #fbf8d0; }
+        .footer-section .top-footer .address-sec .footer-address .content2 .underline {
+          text-decoration: underline; }
+    .footer-section .top-footer .footer-social-icon {
+      display: flex;
+      justify-content: flex-end; }
+      .footer-section .top-footer .footer-social-icon i {
+        padding: 8px;
+        font-size: 18px;
+        background-color: #cfb87c;
+        border-radius: 50%;
+        color: #000000; }
+      .footer-section .top-footer .footer-social-icon .mr {
+        margin-right: 17px; }
+  .footer-section .bottom-footer {
+    background-color: #000000;
+    border-top: 1px solid #cfb87c; }
+    .footer-section .bottom-footer .text-bottom-footer {
+      padding: 35px 75px 36px 75px; }
+      .footer-section .bottom-footer .text-bottom-footer .bottom-footer-logo img {
+        float: right;
+        margin-top: -94px; }
+      .footer-section .bottom-footer .text-bottom-footer span {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 18px;
+        color: #a0a0a0; }
+
+/*---------------------------------Footer Section Css endss Here---------------------------------*/
+/*=================================Media Query Section=====================================*/
+/*media query for 1199px screen*/
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  /*for header*/
+  .header-section {
+    width: auto; }
+    .header-section .left-header-text {
+      padding: 31.4133333333px 0px 31.4133333333px 62.8266666667px; }
+      .header-section .left-header-text .header-arrow {
+        margin-right: 8.2666666667px; }
+      .header-section .left-header-text .header-text {
+        font-size: 14.88px;
+        width: 49.6px;
+        height: 19.84px; }
+    .header-section .right-header-menu {
+      top: 32.24px;
+      right: 60.3466666667px; }
+      .header-section .right-header-menu .dropdown {
+        width: 90.1066666667px;
+        height: 27.28px;
+        border-radius: 1.6533333333px; }
+        .header-section .right-header-menu .dropdown .menu-text {
+          font-size: 14.88px;
+          height: 19.84px; }
+        .header-section .right-header-menu .dropdown .hamburger-text {
+          margin-right: 6.6133333333px; }
+        .header-section .right-header-menu .dropdown .dropdown-toggle {
+          padding: 2.48px 13.2266666667px 2.48px 13.2266666667px; }
+        .header-section .right-header-menu .dropdown .dropdown-menu {
+          width: 201.7066666667px;
+          left: -113.2533333333px;
+          top: 49.6px;
+          padding: 21.4933333333px 33.0666666667px 23.9733333333px; }
+          .header-section .right-header-menu .dropdown .dropdown-menu li a {
+            font-size: 12.4px;
+            line-height: 19.84px;
+            padding: 9.0933333333px 0px 4.1333333333px; }
+
+  /*for contact section*/
+  .contact-section {
+    /*Section one - Image Section Css*/
+    /*Section two- Information Section css*/
+    /*Section three- conatact information Section css*/ }
+    .contact-section .container {
+      padding: 147.1466666667px 61.1733333333px 62.8266666667px 63.6533333333px; }
+    .contact-section .section-one {
+      width: 148.8px;
+      height: 148.8px; }
+      .contact-section .section-one .image-section img {
+        width: 148.8px;
+        height: 148.8px;
+        border-radius: 90px; }
+    .contact-section .section-two {
+      border-left: 4.1333333333px solid #eeeeee;
+      height: 414.16px;
+      padding-left: 21.4933333333px;
+      margin-right: 33.8933333333px; }
+      .contact-section .section-two .information-section .heading {
+        font-size: 22.32px;
+        line-height: 26.4533333333px; }
+      .contact-section .section-two .information-section .title {
+        font-size: 18.1866666667px;
+        line-height: 24.8px; }
+      .contact-section .section-two .information-section .paragraph {
+        font-size: 13.2266666667px;
+        width: 330.6666666667px;
+        line-height: 18.1866666667px;
+        padding-top: 29.76px;
+        padding-right: 3.3066666667px; }
+    .contact-section .section-three .contact-information {
+      width: 286.0266666667px;
+      padding: 17.36px 18.1866666667px 20.6666666667px 18.1866666667px; }
+      .contact-section .section-three .contact-information .title {
+        font-size: 16.5333333333px;
+        line-height: 23.1466666667px; }
+      .contact-section .section-three .contact-information .hr-width {
+        margin-top: 16.5333333333px;
+        margin-bottom: 19.0133333333px;
+        height: 0.8266666667px; }
+      .contact-section .section-three .contact-information .information .left {
+        font-size: 13.2266666667px;
+        width: 47.9466666667px;
+        line-height: 20.6666666667px; }
+      .contact-section .section-three .contact-information .information .right {
+        font-size: 13.2266666667px;
+        width: 184.3466666667px;
+        font-size: 13.2266666667px;
+        line-height: 20.6666666667px; }
+      .contact-section .section-three .contact-information .social-icons i {
+        margin-right: 13.2266666667px;
+        font-size: 11.5733333333px; }
+
+  /*for footer*/
+  .footer-section {
+    /*TOP FOOTER*/
+    /*BOOTOM FOOTER*/ }
+    .footer-section .top-footer {
+      padding: 57.04px 62px 60.3466666667px 63.6533333333px;
+      /*ADDRESS SECTION*/
+      /*SOCIAL ICON*/ }
+      .footer-section .top-footer .address-sec {
+        padding: 0px 0px 0px 33.8933333333px; }
+        .footer-section .top-footer .address-sec .footer-address .content1 {
+          font-size: 12.4px;
+          line-height: 18.1866666667px; }
+        .footer-section .top-footer .address-sec .footer-address .footer-hr {
+          width: 176.08px;
+          height: 0.8266666667px; }
+        .footer-section .top-footer .address-sec .footer-address .content2 {
+          font-size: 12.4px;
+          line-height: 18.1866666667px; }
+      .footer-section .top-footer .footer-social-icon i {
+        font-size: 14.88px; }
+      .footer-section .top-footer .footer-social-icon .mr {
+        margin-right: 14.0533333333px; }
+    .footer-section .bottom-footer .text-bottom-footer {
+      padding: 28.9333333333px 62px 29.76px 62px; }
+      .footer-section .bottom-footer .text-bottom-footer .bottom-footer-logo img {
+        margin-top: -88px; }
+      .footer-section .bottom-footer .text-bottom-footer span {
+        font-size: 12.4px;
+        line-height: 14.88px; } }
+/*media query closing*/
+/*--------------------media query for 991px screen-----------------------*/
+@media only screen and (max-width: 991px) {
+  /*for contact section*/
+  .contact-section {
+    /*Section two- Information Section css*/
+    /*Section three- conatact information Section css*/ }
+    .contact-section .container {
+      padding: 168px 57px 0px 53px; }
+    .contact-section .section-two {
+      padding-left: 24px;
+      margin: 22px 16px 0px 0px;
+      height: 420px; }
+      .contact-section .section-two .information-section .paragraph {
+        width: auto; }
+    .contact-section .section-three .contact-information {
+      margin-bottom: 35px; }
+
+  /*for footer*/
+  .footer-section {
+    /*TOP FOOTER*/
+    /*BOOTOM FOOTER*/ }
+    .footer-section .top-footer {
+      padding: 57px 75px 73px 75px;
+      /*for top footer logo*/
+      /*ADDRESS SECTION*/
+      /*SOCIAL ICON*/ }
+      .footer-section .top-footer .footer-logo .image-wh {
+        margin: 0px auto;
+        display: block; }
+      .footer-section .top-footer .address-sec {
+        text-align: center;
+        padding: 15px 0px 0px 0px; }
+        .footer-section .top-footer .address-sec .footer-address .footer-hr {
+          margin: 0px auto;
+          display: block; }
+      .footer-section .top-footer .footer-social-icon {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px; }
+    .footer-section .bottom-footer .text-bottom-footer {
+      text-align: center; } }
+/*media query closing*/
+/*-----------------media query for 640px screen-------------------*/
+@media only screen and (max-width: 640px) {
+  /*for Header*/
+  .header-section .left-header-text {
+    padding: 38px 0px 38px 40px; }
+  .header-section .right-header-menu {
+    right: 24px; }
+
+  /*for contact section*/
+  .contact-section {
+    /*Section two- Information Section css*/
+    /*Section three- conatact information Section css*/ }
+    .contact-section .container {
+      padding-left: 15px;
+      padding-right: 11px; }
+    .contact-section .section-two {
+      padding-left: 20px;
+      margin-top: 22px;
+      height: 501px; }
+      .contact-section .section-two .information-section .paragraph {
+        line-height: 20px;
+        padding-top: 25px; }
+    .contact-section .section-three .contact-information {
+      padding-left: 25px;
+      margin: 35px 0px; }
+
+  /*for footer*/
+  .footer-section {
+    /*BOOTOM FOOTER*/ }
+    .footer-section .bottom-footer .text-bottom-footer {
+      padding: 35px 10px 36px 10px; } }
+/*media query closing*/
+/*---------------------media query for 420px screen-----------------------------*/
+@media only screen and (max-width: 420px) {
+  /*for contact section*/
+  .contact-section {
+    /*Section two- Information Section css*/ }
+    .contact-section .section-two .information-section .paragraph {
+      line-height: 19px;
+      padding-top: 15px;
+      font-size: 15.5px; }
+
+  /*for footer*/
+  .footer-section {
+    /*TOP FOOTER*/
+    /*BOOTOM FOOTER*/ }
+    .footer-section .top-footer {
+      padding: 57px 24px 84px 24px; }
+    .footer-section .bottom-footer .text-bottom-footer .bottom-footer-logo img {
+      margin-top: -90px;
+      width: 359px; } }
+/*media query closing*/
+/*---------------------media query for 370px screen-----------------------------*/
+@media only screen and (max-width: 370px) {
+  /*For header section*/
+  .header-section .left-header-text {
+    padding: 33px 0px 30px 21px; }
+  .header-section .right-header-menu {
+    right: 24px;
+    top: 33px; }
+    .header-section .right-header-menu .dropdown {
+      width: 60px;
+      height: 24px;
+      font-size: 18px;
+      color: #cfb87c; }
+      .header-section .right-header-menu .dropdown .dropdown-toggle {
+        padding: 1px 0px 3px 22px; }
+      .header-section .right-header-menu .dropdown .dropdown-menu {
+        left: -182px;
+        top: 54px; }
+
+  /*for contact section*/
+  .contact-section {
+    /*Section two- Information Section css*/
+    /*Section three- conatact information Section css*/ }
+    .contact-section .container {
+      padding: 129px 20px 0px 20px; }
+    .contact-section .section-two {
+      border-left: 4px solid #eeeeee;
+      height: 555px;
+      padding-left: 22px;
+      margin-top: 35px; }
+      .contact-section .section-two .information-section .heading {
+        font-size: 23px;
+        line-height: 27px; }
+      .contact-section .section-two .information-section .title {
+        font-size: 19px;
+        line-height: 26px; }
+      .contact-section .section-two .information-section .paragraph {
+        font-size: 14px;
+        line-height: 18.5px;
+        padding-top: 19px;
+        margin-bottom: 19px;
+        padding-right: 0px; }
+    .contact-section .section-three .contact-information {
+      width: 282px;
+      margin: 43px 0px;
+      padding: 15px 20px 17px 20px; }
+      .contact-section .section-three .contact-information .title {
+        font-size: 17px;
+        line-height: 24px; }
+      .contact-section .section-three .contact-information .hr-width {
+        height: 1px;
+        background-color: #cfb87c;
+        margin-top: 17px;
+        margin-bottom: 19px; }
+      .contact-section .section-three .contact-information .information .left {
+        font-size: 14px;
+        line-height: 21px; }
+      .contact-section .section-three .contact-information .information .right {
+        font-size: 14px;
+        line-height: 21px; }
+
+  /*for footer*/
+  .footer-section {
+    /*TOP FOOTER*/
+    /*BOOTOM FOOTER*/ }
+    .footer-section .top-footer {
+      padding: 48px 37px 48px 37px;
+      /*ADDRESS SECTION*/
+      /*SOCIAL ICON*/ }
+      .footer-section .top-footer .footer-logo .image-wh {
+        width: 240px; }
+      .footer-section .top-footer .address-sec {
+        padding: 42px 0px 0px 0px; }
+        .footer-section .top-footer .address-sec .footer-address .content1 {
+          font-size: 13px;
+          line-height: 19px; }
+        .footer-section .top-footer .address-sec .footer-address .footer-hr {
+          width: 181px; }
+        .footer-section .top-footer .address-sec .footer-address .content2 {
+          font-size: 13px;
+          line-height: 19px; }
+      .footer-section .top-footer .footer-social-icon {
+        padding-top: 44px;
+        padding-bottom: 58px; }
+        .footer-section .top-footer .footer-social-icon i {
+          padding: 8px;
+          font-size: 18px;
+          background-color: #cfb87c;
+          border-radius: 50%;
+          color: #000000; }
+        .footer-section .top-footer .footer-social-icon .mr {
+          margin-right: 17px; }
+    .footer-section .bottom-footer .text-bottom-footer {
+      padding: 35px 35px 36px 35px; }
+      .footer-section .bottom-footer .text-bottom-footer .bottom-footer-logo img {
+        margin-top: -80px;
+        width: 252px;
+        height: 45px; }
+      .footer-section .bottom-footer .text-bottom-footer span {
+        font-size: 13px;
+        line-height: 15px; } }
+/*Media query Closing*/
+
+/*# sourceMappingURL=mystyle.css.map */
